@@ -1,0 +1,6 @@
+.taglib-asset-tags-summary .tag {
+	background: url(@theme_image_path@/rtl/common/tag.png) no-repeat right 50%; /*rtl*/
+	margin-bottom: 3px;
+	margin-left: 3px;
+	padding: 2px 20px 2px 5px; /*rtl*/
+}
