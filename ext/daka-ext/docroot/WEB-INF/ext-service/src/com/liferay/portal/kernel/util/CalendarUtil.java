@@ -261,7 +261,7 @@ public class CalendarUtil {
 	public static String[] getMonths(Locale locale, String pattern) {
 
 		if (Validator.isNull(pattern)) {
-			pattern = "MMMM";
+			pattern = "EEEE";
 		}
 
 		StringBundler sb = new StringBundler(6);
@@ -280,16 +280,15 @@ public class CalendarUtil {
 		if (months == null) {
 			months = new String[12];
 
-			PersianCalendar cal = new PersianCalendar();
+			PersianCalendar pc = new PersianCalendar(locale);
+			PersianDateFormat dayFormat = new PersianDateFormat(pattern, locale);
 
-			PersianDateFormat monthFormat = new PersianDateFormat(pattern, locale);
-
-			cal.set(PersianCalendar.DATE, 1);
+			pc.set(PersianCalendar.DATE, 1);
 
 			for (int i = 0; i < 12; i++) {
-				cal.set(PersianCalendar.MONTH, i);
+				pc.set(PersianCalendar.MONTH, i + 1);
 
-				months[i] = monthFormat.format(cal.getTime());
+				months[i] = dayFormat.format(pc.getTime());
 			}
 
 			_calendarPool.put(key, months);
