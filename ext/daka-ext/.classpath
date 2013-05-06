@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/ext-plugin"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" output="docroot/WEB-INF/ext-impl/classes" path="docroot/WEB-INF/ext-impl/src">
 		<attributes>
