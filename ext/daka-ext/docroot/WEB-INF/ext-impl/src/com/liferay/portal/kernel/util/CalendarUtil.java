@@ -27,7 +27,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.eclipse.jdt.internal.compiler.ast.SuperReference;
 
 /**
  * @author Brian Wing Shun Chan

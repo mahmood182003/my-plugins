@@ -1,5 +1,5 @@
 @import "compass";
-@import url(../../classic/css/custom_common.css);
+@import url(../../../classic/css/custom_common.css);
 
 /* ---------- Base styles ---------- */
 
@@ -311,7 +311,7 @@ body.portal-popup:after, body.portal-popup:before {
 }
 
 .panels-minimized #minimize-panels a {
-	background-position: 1px -34px;
+	background-position: 99% -34px;
 }
 
 .panel-page-menu .lfr-panel.lfr-extended {

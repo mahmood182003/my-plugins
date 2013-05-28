@@ -11,7 +11,7 @@
 .portlet-communities {
 	.organizations-msg-info {
 		background-color: #FEFEFE;
-		background-image: url(@theme_image_path@/common/organization_icon.png);
+		background-image: url(@theme_image_path@/rtl/common/organization_icon.png);
 		border-color: #BBB;
 	}
 }

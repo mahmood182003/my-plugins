@@ -51,7 +51,7 @@
 	z-index: 999 !important;
 
 	.aui-buttonitem-content {
-		padding: 3px 1px 2px 3px;
+		padding:3px 1px 2px 3px;
 	}
 
 	[class~="aui-form-validator-message"] {

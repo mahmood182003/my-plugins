@@ -1,6 +1,6 @@
 .portlet-calendar {
 	.calendar-container {
-		background: #fff url(@theme_image_path@/calendar/calendar_day_drop_shadow.png) repeat-x right 99%;
+		background: #fff url(@theme_image_path@/rtl/calendar/calendar_day_drop_shadow.png) repeat-x right 99%;
 		border: 1px solid #D7D7D7;
 		width: 400px;
 	}
@@ -20,7 +20,7 @@
 	}
 
 	.calendar-day {
-		float:right;
+		float: right;
 		text-align: center;
 		width: 209px;
 
@@ -102,12 +102,12 @@
 
 	.has-events {
 		a span {
-			background: url(@theme_image_path@/calendar/event_indicator.png) no-repeat 50% 95%;
+			background: url(@theme_image_path@/rtl/calendar/event_indicator.png) no-repeat 50% 95%;
 			padding-bottom: 5px;
 		}
 
 		&.calendar-current-day a span {
-			background-image: url(@theme_image_path@/calendar/event_indicator_current.png);
+			background-image: url(@theme_image_path@/rtl/calendar/event_indicator_current.png);
 		}
 	}
 
@@ -235,7 +235,7 @@
 .ie {
 	.portlet-calendar {
 		.calendar-container {
-			background-position: right 98%;
+			background-position: 0 98%;
 		}
 	}
 }

@@ -12,7 +12,7 @@
 	}
 
 	.task-activity {
-		padding: 5px 25px 5px 5px;
+		padding:5px 25px 5px 5px;
 	}
 
 	.task-activity-date {
@@ -24,7 +24,7 @@
 	}
 
 	.lfr-asset-assigned {
-		background-image: url(@theme_image_path@/common/assign.png);
+		background-image: url(@theme_image_path@/rtl/common/assign.png);
 		margin-left: 10px;
 		padding-right: 25px;
 		padding-left: 10px;
@@ -44,24 +44,24 @@
 	}
 
 	.lfr-asset-date {
-		background: url(@theme_image_path@/common/date.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 50%;
 	}
 
 	.lfr-asset-due-date {
-		background-image: url(@theme_image_path@/common/time.png);
+		background-image: url(@theme_image_path@/rtl/common/time.png);
 		padding-right: 25px;
 	}
 
 	.task-type-1 {
-		background-image: url(@theme_image_path@/common/assign.png);
+		background-image: url(@theme_image_path@/rtl/common/assign.png);
 	}
 
 	.task-type-2 {
-		background-image: url(@theme_image_path@/common/time.png);
+		background-image: url(@theme_image_path@/rtl/common/time.png);
 	}
 
 	.task-type-3 {
-		background-image: url(@theme_image_path@/common/recent_changes.png);
+		background-image: url(@theme_image_path@/rtl/common/recent_changes.png);
 	}
 
 	.lfr-asset-date {
@@ -72,7 +72,7 @@
 	}
 
 	.lfr-asset-status {
-		background-image: url(@theme_image_path@/common/recent_changes.png);
+		background-image: url(@theme_image_path@/rtl/common/recent_changes.png);
 		padding-right: 25px;
 		padding-left: 10px;
 	}
@@ -89,7 +89,7 @@
 	}
 
 	.metadata-author {
-		background: url(@theme_image_path@/portlet/edit_guest.png) no-repeat right 0;
+		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 0;
 		font-weight: bold;
 		margin-left: 10px;
 		padding-right: 25px;
@@ -103,14 +103,14 @@
 	}
 
 	.metadata-modified-date, .metadata-create-date, .metadata-publish-date, .metadata-expiration-date {
-		background: url(@theme_image_path@/common/date.png) no-repeat right 0;
+		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 0;
 		color: #999;
 		margin-bottom: 1em;
 		padding-right: 25px;
 	}
 
 	.metadata-priority {
-		background: url(@theme_image_path@/common/top.png) no-repeat right 20%;
+		background: url(@theme_image_path@/rtl/common/top.png) no-repeat right 20%;
 		margin-left: 10px;
 		padding-right: 25px;
 	}

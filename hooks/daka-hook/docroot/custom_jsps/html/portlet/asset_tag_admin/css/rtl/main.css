@@ -25,7 +25,7 @@
 		}
 
 		.aui-field-input {
-			background-image: url(@theme_image_path@/common/search.png);
+			background-image: url(@theme_image_path@/rtl/common/search.png);
 			background-repeat: no-repeat;
 			background-position: 5px 50%;
 			padding-right: 25px;
@@ -54,7 +54,7 @@
 
 	.tag-item a {
 		display: block;
-		padding: 8px 25px 8px 20px;
+		padding:8px 25px 8px 20px;
 		text-decoration: none;
 	}
 
@@ -66,7 +66,7 @@
 	}
 
 	.tag-item-actions-trigger {
-		background-image: url(@theme_image_path@/common/edit.png);
+		background-image: url(@theme_image_path@/rtl/common/edit.png);
 		background-repeat: no-repeat;
 		clip: rect(0pt, 0pt, 0pt, 0pt);
 		height: 16px;
@@ -183,7 +183,7 @@
 	display: block;
 	font-weight: bold;
 	list-style: none;
-	padding: 8px 10px 8px 20px;
+	padding:8px 10px 8px 20px;
 
 	a {
 		text-decoration: none;
@@ -259,12 +259,12 @@
 		}
 
 		.tag-move-down {
-			background-image: url(@theme_image_path@/arrows/02_down.png);
+			background-image: url(@theme_image_path@/rtl/arrows/02_down.png);
 			margin-top: 0.2em;
 		}
 
 		.tag-move-up {
-			background-image: url(@theme_image_path@/arrows/02_up.png);
+			background-image: url(@theme_image_path@/rtl/arrows/02_up.png);
 		}
 
 		.tag-options {

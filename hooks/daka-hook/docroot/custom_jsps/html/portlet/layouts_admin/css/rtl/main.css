@@ -47,7 +47,7 @@
 		}
 
 		.theme-details {
-			padding: 0px 170px 0px 2px;
+			padding:0 170px 0 2px;
 		}
 
 		.theme-fields {
@@ -108,7 +108,7 @@
 		}
 
 		.lfr-layout-template-column-content {
-			padding: 0 2em 0 0;
+			padding:0 0 0 2em;
 		}
 
 		.lfr-page-layouts-content {
@@ -205,27 +205,27 @@
 		}
 
 		.aui-icon-add {
-			background-image: url(@theme_image_path@/common/add.png);
+			background-image: url(@theme_image_path@/rtl/common/add.png);
 		}
 
 		.aui-icon-copy {
-			background-image: url(@theme_image_path@/common/copy.png);
+			background-image: url(@theme_image_path@/rtl/common/copy.png);
 		}
 
 		.aui-icon-delete {
-			background-image: url(@theme_image_path@/common/delete.png);
+			background-image: url(@theme_image_path@/rtl/common/delete.png);
 		}
 
 		.aui-icon-export {
-			background-image: url(@theme_image_path@/common/export.png);
+			background-image: url(@theme_image_path@/rtl/common/export.png);
 		}
 
 		.aui-icon-permissions {
-			background-image: url(@theme_image_path@/common/permissions.png);
+			background-image: url(@theme_image_path@/rtl/common/permissions.png);
 		}
 
 		.aui-icon-search {
-			background-image: url(@theme_image_path@/common/search.png);
+			background-image: url(@theme_image_path@/rtl/common/search.png);
 		}
 	}
 
@@ -258,7 +258,7 @@
 			background-color: #FFF;
 			border: 1px solid #DEDEDE;
 			border-color: #C0C2C5;
-			margin: 0 0 1em 0;
+			margin:0 0 1em 0;
 		}
 
 		li {
@@ -268,9 +268,9 @@
 			padding-left: 0;
 
 			span {
-				background: url(@theme_image_path@/common/breadcrumbs.png) no-repeat left 50%;
+				background: url(@theme_image_path@/rtl/common/breadcrumbs.png) no-repeat left 50%;
 				display: block;
-				padding: 0.5em 15px 0.5em 0;
+				padding: 0.5em 0 0.5em 15px;
 
 				a {
 					text-decoration: none;
@@ -380,15 +380,15 @@
 }
 
 .aui-tree-expanded .aui-tree-icon {
-	background-image: url(@theme_image_path@/trees/page_copy.png);
+	background-image: url(@theme_image_path@/rtl/trees/page_copy.png);
 }
 
 .aui-tree-collapsed .aui-tree-icon {
-	background-image: url(@theme_image_path@/trees/page.png);
+	background-image: url(@theme_image_path@/rtl/trees/page.png);
 }
 
 .lfr-page-locked .aui-tree-icon {
-	background-image: url(@theme_image_path@/trees/page_locked.png);
+	background-image: url(@theme_image_path@/rtl/trees/page_locked.png);
 }
 
 .export-dialog-tree {
@@ -429,7 +429,7 @@
 
 .lfr-root-node {
 	.aui-tree-icon {
-		background-image: url(@theme_image_path@/trees/root.png);
+		background-image: url(@theme_image_path@/rtl/trees/root.png);
 		cursor: pointer;
 	}
 
@@ -458,15 +458,15 @@
 }
 
 .lfr-tree-controls-item {
-	padding: 0px 6px 6px 0px;
+	padding:0 6px 6px 0;
 }
 
 .lfr-tree-controls-expand {
-	background-image: url(@theme_image_path@/trees/expand_all.png);
+	background-image: url(@theme_image_path@/rtl/trees/expand_all.png);
 }
 
 .lfr-tree-controls-collapse {
-	background-image: url(@theme_image_path@/trees/collapse_all.png);
+	background-image: url(@theme_image_path@/rtl/trees/collapse_all.png);
 }
 
 .ie6 {

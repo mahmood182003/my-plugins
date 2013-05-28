@@ -243,8 +243,8 @@
 	}
 
 	.taglib-asset-categories-summary .asset-vocabulary {
-		background: url(@theme_image_path@/common/folder.png) no-repeat right 50%;
-		padding: 2px 20px 2px 5px;
+		background: url(@theme_image_path@/rtl/common/folder.png) no-repeat right 50%;
+		padding:2px 20px 2px 5px;
 	}
 }
 

@@ -44,12 +44,12 @@
 		th {
 			background-color: #999;
 			color: white;
-			padding: 1px 5px 1px 5px;
+			padding:1px 5px 1px 5px;
 		}
 	}
 
 	.primary {
-		background: #EEE url(@theme_image_path@/dock/my_place_current.png) no-repeat 3px 50%;
+		background: #EEE url(@theme_image_path@/rtl/dock/my_place_current.png) no-repeat 3px 50%;
 		color: #020509;
 		font-weight: bold;
 		margin-bottom: 10px;
@@ -118,7 +118,7 @@
 		}
 
 		h3 {
-			background-image: url(@theme_image_path@/dock/home.png);
+			background-image: url(@theme_image_path@/rtl/dock/home.png);
 		}
 
 		.primary {
@@ -127,7 +127,7 @@
 	}
 
 	.entity-comments h3 {
-		background-image: url(@theme_image_path@/dock/welcome_message.png);
+		background-image: url(@theme_image_path@/rtl/dock/welcome_message.png);
 	}
 
 	.entity-details {
@@ -135,7 +135,7 @@
 	}
 
 	.entity-email-addresses h3 {
-		background-image: url(@theme_image_path@/mail/unread.png);
+		background-image: url(@theme_image_path@/rtl/mail/unread.png);
 	}
 
 	.user-information, .organization-information {
@@ -143,27 +143,27 @@
 	}
 
 	.entity-instant-messenger h3 {
-		background-image: url(@theme_image_path@/common/conversation.png);
+		background-image: url(@theme_image_path@/rtl/common/conversation.png);
 	}
 
 	.entity-phones h3 {
-		background-image: url(@theme_image_path@/common/telephone.png);
+		background-image: url(@theme_image_path@/rtl/common/telephone.png);
 	}
 
 	.entity-sms h3 {
-		background-image: url(@theme_image_path@/common/telephone_mobile.png);
+		background-image: url(@theme_image_path@/rtl/common/telephone_mobile.png);
 	}
 
 	.entity-social-network h3 {
-		background-image: url(@theme_image_path@/common/group.png);
+		background-image: url(@theme_image_path@/rtl/common/group.png);
 	}
 
 	.entity-websites h3 {
-		background-image: url(@theme_image_path@/common/history.png);
+		background-image: url(@theme_image_path@/rtl/common/history.png);
 	}
 
 	.entity-services h3 {
-		background-image: url(@theme_image_path@/common/services.png);
+		background-image: url(@theme_image_path@/rtl/common/services.png);
 	}
 }
 

@@ -90,7 +90,7 @@
 	}
 
 	.portlet-body h1.page-title .return-to-page {
-		background: url(@theme_image_path@/wiki/return_to_page.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/wiki/return_to_page.png) no-repeat right 50%;
 		padding-right: 20px;
 		text-decoration: none;
 	}
@@ -151,13 +151,13 @@
 	}
 
 	.content-body a.external-link {
-		background: transparent url(@theme_image_path@/wiki/external.png) right top no-repeat;
+		background: transparent url(@theme_image_path@/rtl/wiki/external.png) left top no-repeat;
 		text-decoration: none;
 		padding-left: 10px;
 	}
 
 	.content-body a.external-link:hover {
-		background: transparent url(@theme_image_path@/wiki/external.png) right top no-repeat;
+		background: transparent url(@theme_image_path@/rtl/wiki/external.png) left top no-repeat;
 		text-decoration: underline;
 		padding-left: 11px;
 	}
@@ -189,14 +189,14 @@
 	}
 
 	.history-navigation .next {
-		background-image: url(@theme_image_path@/arrows/paging_next.png);
+		background-image: url(@theme_image_path@/rtl/arrows/paging_next.png);
 		background-position: 100% 0;
 		float: left;
 		padding-left: 15px;
 	}
 
 	.history-navigation .previous {
-		background-image: url(@theme_image_path@/arrows/paging_previous.png);
+		background-image: url(@theme_image_path@/rtl/arrows/paging_previous.png);
 		float: right;
 		padding-right: 15px;
 	}
@@ -210,7 +210,7 @@
 	}
 
 	.history-navigation span.previous {
-		background-position: right 100%;
+		background-position: 0 100%;
 	}
 
 	.history-navigation {

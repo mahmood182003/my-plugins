@@ -71,16 +71,16 @@
 		}
 
 		.move-file {
-			background-image: url(@theme_image_path@/file_system/small/jpg.png);
+			background-image: url(@theme_image_path@/rtl/file_system/small/jpg.png);
 		}
 
 		.move-folder {
-			background-image: url(@theme_image_path@/common/folder.png);
+			background-image: url(@theme_image_path@/rtl/common/folder.png);
 		}
 
 		.move-error {
 			background-color: #FDD;
-			background-image: url(@theme_image_path@/messages/error.png);
+			background-image: url(@theme_image_path@/rtl/messages/error.png);
 			font-weight: normal;
 			opacity: 0.6;
 
@@ -186,7 +186,7 @@
 		}
 
 		&.show-arrow.direction-down .lfr-trigger strong a {
-			background: url(@theme_image_path@/arrows/08_down.png) left -5px no-repeat;
+			background: url(@theme_image_path@/rtl/arrows/08_down.png) left -5px no-repeat;
 		}
 	}
 
@@ -267,7 +267,7 @@
 
 			.document-thumbnail {
 				float: right;
-				margin: 5px 5px 5px 10px;
+				margin:5px 5px 5px 10px;
 				position: relative;
 				text-align: center;
 			}
@@ -418,12 +418,12 @@
 
 	.lfr-header-row {
 		.display-style .aui-icon {
-			background-image: url(@theme_image_path@/document_library/layouts.png);
+			background-image: url(@theme_image_path@/rtl/document_library/layouts.png);
 			background-repeat: no-repeat;
 		}
 
 		.aui-icon-display-list {
-			background-position: right 100%;
+			background-position: 0 100%;
 		}
 
 		.aui-icon-display-icon {
@@ -472,35 +472,35 @@
 		}
 
 		.aui-icon-delete {
-			background-image: url(@theme_image_path@/common/delete.png);
+			background-image: url(@theme_image_path@/rtl/common/delete.png);
 		}
 
 		.aui-icon-download {
-			background-image: url(@theme_image_path@/common/download.png);
+			background-image: url(@theme_image_path@/rtl/common/download.png);
 		}
 
 		.aui-icon-edit {
-			background-image: url(@theme_image_path@/common/edit.png);
+			background-image: url(@theme_image_path@/rtl/common/edit.png);
 		}
 
 		.aui-icon-lock {
-			background-image: url(@theme_image_path@/common/lock.png);
+			background-image: url(@theme_image_path@/rtl/common/lock.png);
 		}
 
 		.aui-icon-move {
-			background-image: url(@theme_image_path@/common/submit.png);
+			background-image: url(@theme_image_path@/rtl/common/submit.png);
 		}
 
 		.aui-icon-permissions {
-			background-image: url(@theme_image_path@/common/permissions.png);
+			background-image: url(@theme_image_path@/rtl/common/permissions.png);
 		}
 
 		.aui-icon-undo {
-			background-image: url(@theme_image_path@/common/undo.png);
+			background-image: url(@theme_image_path@/rtl/common/undo.png);
 		}
 
 		.aui-icon-unlock {
-			background-image: url(@theme_image_path@/common/unlock.png);
+			background-image: url(@theme_image_path@/rtl/common/unlock.png);
 		}
 	}
 
@@ -522,7 +522,7 @@
 		.parent-folder-title {
 			color: #FFF;
 			font-weight: bold;
-			padding: 6px 25px 6px 10px;
+			padding:6px 25px 6px 10px;
 			text-shadow: -1px -1px #505050;
 		}
 	}
@@ -552,7 +552,7 @@
 	}
 
 	.taglib-search-iterator-page-iterator-top, .taglib-search-iterator-page-iterator-bottom, .aui-paginator-container, .document-library-breadcrumb {
-		background: #D9D9D9 url(@theme_image_path@/application/subheader_bg.png) right 0 repeat-x;
+		background: #D9D9D9 url(@theme_image_path@/rtl/application/subheader_bg.png) right 0 repeat-x;
 		clear: both;
 		padding: 5px;
 		position: relative;
@@ -595,7 +595,7 @@
 
 	.document-library-breadcrumb {
 		background-color: #EBEBEB;
-		background-image: url(@theme_image_path@/application/button_bg_selected.png);
+		background-image: url(@theme_image_path@/rtl/application/button_bg_selected.png);
 
 		ul {
 			margin-bottom: 0;
@@ -679,7 +679,7 @@
 
 		.document-thumbnail {
 			float: right;
-			margin: 0 10px 0 0;
+			margin:0 0 0 10px;
 		}
 
 		.clear {
@@ -704,19 +704,19 @@
 			}
 
 			.lfr-asset-icon {
-				background-position: right 2px;
+				background-position: 0 2px;
 				background-repeat: no-repeat;
 				border-left-width: 0;
 				float: none;
-				padding: 2px 20px 2px 0px;
+				padding:2px 20px 2px 0;
 			}
 
 			.lfr-asset-author {
-				background-image: url(@theme_image_path@/portlet/edit_defaults.png);
+				background-image: url(@theme_image_path@/rtl/portlet/edit_defaults.png);
 			}
 
 			.lfr-asset-downloads {
-				background-image: url(@theme_image_path@/common/download.png);
+				background-image: url(@theme_image_path@/rtl/common/download.png);
 			}
 
 			.lfr-asset-ratings {
@@ -742,7 +742,7 @@
 	}
 
 	.version.document-locked {
-		background: url(@theme_image_path@/common/lock.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/common/lock.png) no-repeat right 50%;
 		padding-right: 20px;
 	}
 
@@ -842,7 +842,7 @@
 }
 
 .active-area-proxy {
-	background: #FFFFE0 url(@theme_image_path@/portlet/pop_up.png) no-repeat 10px 50%;
+	background: #FFFFE0 url(@theme_image_path@/rtl/portlet/pop_up.png) no-repeat 10px 50%;
 	font-size: 1.2em;
 	padding: 0.3em 0.3em 0.3em 2em;
 }

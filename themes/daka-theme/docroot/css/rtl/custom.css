@@ -308,7 +308,7 @@ hr, .separator {
 	border-color: #C0C2C5;
 	margin: 0;
 	/*daka*/
-	direction: ltr;
+	direction: rtl;
 	text-align: right;
 }
 

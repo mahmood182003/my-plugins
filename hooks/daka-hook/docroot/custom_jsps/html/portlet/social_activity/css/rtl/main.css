@@ -15,7 +15,7 @@
 
 	.social-activity-item {
 		cursor: pointer;
-		padding: 6px 3px 6px 0px;
+		padding:6px 3px 6px 0px;
 		position: relative;
 
 		.social-activity-item-content {
@@ -55,7 +55,7 @@
 	.aui-settings-display .aui-settings-display-content {
 		background-color: #FFF;
 		border: 1px solid #CCC;
-		margin: 0px 0px 5px 15px;
+		margin:0px 0px 5px 15px;
 		padding: 0px 15px;
 
 		.aui-settings-field {
@@ -93,7 +93,7 @@
 
 			.content-field {
 				border-bottom: 1px solid #ccc;
-				padding: 8px 10px 8px 0px;
+				padding:8px 10px 8px 0;
 
 				.settings-controls {
 					display: block;
@@ -111,7 +111,7 @@
 		}
 
 		.settings-header {
-			padding: 10px 0 5px 0;
+			padding:10px 0 5px 0;
 
 			.actions-conjunction {
 				display: inline-block;
@@ -131,7 +131,7 @@
 			}
 
 			.action-field {
-				background-image: url(@theme_image_path@/common/add.png);
+				background-image: url(@theme_image_path@/rtl/common/add.png);
 				background-position: 5px 50%;
 				background-repeat: no-repeat;
 				padding-right: 25px;
@@ -166,19 +166,19 @@
 			}
 
 			.settings-icon-close {
-				background-image: url(@theme_image_path@/portlet/close.png);
+				background-image: url(@theme_image_path@/rtl/portlet/close.png);
 			}
 
 			.settings-icon-toggle {
-				background-image: url(@theme_image_path@/arrows/05_left.png);
+				background-image: url(@theme_image_path@/rtl/arrows/05_right.png);
 				font-size: 0.9em;
 				font-weight: normal;
-				padding: 0px 12px 0px 16px;
+				padding:0 12px 0 16px;
 				width: auto;
 			}
 
 			.settings-icon-expanded {
-				background-image: url(@theme_image_path@/arrows/05_down.png);
+				background-image: url(@theme_image_path@/rtl/arrows/05_down.png);
 			}
 		}
 

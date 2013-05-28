@@ -143,7 +143,7 @@
 	}
 
 	.metadata-author {
-		background: url(@theme_image_path@/portlet/edit_guest.png) no-repeat right 0;
+		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 0;
 		float: right;
 		font-weight: bold;
 		margin-left: 10px;
@@ -155,14 +155,14 @@
 	}
 
 	.metadata-modified-date, .metadata-create-date, .metadata-publish-date, .metadata-expiration-date {
-		background: url(@theme_image_path@/common/date.png) no-repeat right 0;
+		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 0;
 		color: #999;
 		margin-bottom: 1em;
 		padding-right: 25px;
 	}
 
 	.metadata-priority {
-		background: url(@theme_image_path@/common/top.png) no-repeat right 20%;
+		background: url(@theme_image_path@/rtl/common/top.png) no-repeat right 20%;
 		margin-left: 10px;
 		padding-right: 25px;
 	}
@@ -275,7 +275,7 @@
 	}
 
 	.lfr-actions.select-existing-selector {
-		margin: 0 0 1em 1em;
+		margin:0 1em 1em 0;
 	}
 
 	.asset-subtype {

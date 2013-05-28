@@ -3303,7 +3303,7 @@ shadow or rounded corners.
 	background: #eee;
 	border: 1px solid;
 	border-color: #bbb #999 #999 #bbb;
-	right: 50%;
+	left: 50%; /*notmodified*/
 	padding: 2px;
 	position: absolute;
 	top: 50%
@@ -3625,7 +3625,7 @@ shadow or rounded corners.
 }
 
 .aui-panel-icons {
-	float: left
+	float: right; /*notmodified*/
 }
 
 .aui-panel-hd {
@@ -3652,7 +3652,7 @@ shadow or rounded corners.
 }
 
 .aui-panel-hd-text {
-	float: right;
+	float: left; /*notmodified*/
 	line-height: 2
 }
 

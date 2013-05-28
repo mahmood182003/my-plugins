@@ -92,7 +92,7 @@
 		}
 
 		.go-to-layout-set-branches-tab .lfr-trigger strong a {
-			background-image: url(@theme_image_path@/arrows/06_down.png);
+			background-image: url(@theme_image_path@/rtl/arrows/06_down.png);
 			text-decoration: none;
 
 			.taglib-text{
@@ -119,8 +119,8 @@
 			padding: 0;
 
 			a {
-				background-image: url(@theme_image_path@/arrows/06_down.png);
-				background-position: right 4px;
+				background-image: url(@theme_image_path@/rtl/arrows/06_down.png);
+				background-position: 0 4px;
 				padding: 0 5px;
 				opacity: 0.5;
 			}
@@ -238,7 +238,7 @@
 							padding-right: 0.5em;
 
 							li {
-								background-image: url(@theme_image_path@/arrows/09_left.png);
+								background-image: url(@theme_image_path@/rtl/arrows/09_right.png);
 
 								&.last {
 									background-image: none;
@@ -254,7 +254,7 @@
 			}
 
 			.last-publication-user {
-				background: url(@theme_image_path@/common/time.png) no-repeat right 50%;
+				background: url(@theme_image_path@/rtl/common/time.png) no-repeat right 50%;
 				padding-right: 20px;
 			}
 
@@ -262,14 +262,14 @@
 				font-size: 0.8em;
 
 				.layout-version {
-					background: url(@theme_image_path@/common/pages.png) no-repeat right 50%;
-					padding: 2px 20px 2px 0px;
+					background: url(@theme_image_path@/rtl/common/pages.png) no-repeat right 50%;
+					padding:2px 20px 2px 0;
 				}
 
 				.variation-name {
-					background: url(@theme_image_path@/common/signal_instance.png) no-repeat right 50%;
+					background: url(@theme_image_path@/rtl/common/signal_instance.png) no-repeat right 50%;
 					margin-left: 10px;
-					padding: 2px 20px 2px 0px;
+					padding:2px 20px 2px 0;
 				}
 			}
 

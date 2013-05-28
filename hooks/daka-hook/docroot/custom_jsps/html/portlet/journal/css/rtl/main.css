@@ -1,5 +1,5 @@
 .journal-article-component-list {
-	margin: 10px 0 0 0;
+	margin:10px 0 0 0;
 }
 
 .portlet-journal {
@@ -22,27 +22,27 @@
 
 	.article-toolbar {
 		.aui-icon-delete {
-			background-image: url(@theme_image_path@/common/delete.png);
+			background-image: url(@theme_image_path@/rtl/common/delete.png);
 		}
 
 		.aui-icon-download {
-			background-image: url(@theme_image_path@/common/download.png);
+			background-image: url(@theme_image_path@/rtl/common/download.png);
 		}
 
 		.aui-icon-expire {
-			background-image: url(@theme_image_path@/common/time.png);
+			background-image: url(@theme_image_path@/rtl/common/time.png);
 		}
 
 		.aui-icon-permissions {
-			background-image: url(@theme_image_path@/common/permissions.png);
+			background-image: url(@theme_image_path@/rtl/common/permissions.png);
 		}
 
 		.aui-icon-preview {
-			background-image: url(@theme_image_path@/common/preview.png);
+			background-image: url(@theme_image_path@/rtl/common/preview.png);
 		}
 
 		.aui-icon-history {
-			background-image: url(@theme_image_path@/common/history.png);
+			background-image: url(@theme_image_path@/rtl/common/history.png);
 		}
 	}
 
@@ -138,7 +138,7 @@
 
 			span {
 				background: #fff;
-				padding: 0px 4px 0px 8px;
+				padding:0 4px 0 8px;
 				position: relative;
 				top: 0.55em;
 			}
@@ -217,7 +217,7 @@
 		.journal-subfield .journal-article-field-label {
 			float: right;
 			font-weight: normal;
-			padding: 0px 3px 0px 0px;
+			padding:0 3px 0 0;
 		}
 
 		.journal-article-move-handler {
@@ -232,7 +232,7 @@
 		.structure-field .structure-field {
 			border: 1px solid #D0D0D0;
 			border-right-width: 10px;
-			margin: 7px 5px 0px 0px;
+			margin:7px 5px 0 0;
 			padding: 7px 10px 10px;
 		}
 	}
@@ -316,7 +316,7 @@
 	}
 
 	.journal-article-instructions-message {
-		margin: 5px 0 0 0;
+		margin:5px 0 0 0;
 	}
 
 	.portlet-msg-info {
@@ -332,7 +332,7 @@
 	}
 
 	.taglib-workflow-status {
-		margin: 0 0 1em 0;
+		margin:0 0 1em 0;
 	}
 
 	.default-link {
@@ -370,7 +370,6 @@
 	.lfr-template-editor {
 		.aui-field-element, .aui-field-content, .aui-field-input-text {
 			display: block;
-			direction: ltr;
 		}
 
 		.aui-field-input-text {
@@ -419,7 +418,7 @@
 			background-color: #DEE7F8;
 			border-radius: 14px;
 			border: 1px solid #CAD8F3;
-			padding: 5px 11px 5px 28px;
+			padding:5px 11px 5px 28px;
 			position: relative;
 
 			.display-page-item-remove {
@@ -448,10 +447,10 @@
 .portlet-journal-edit-mode {
 	.structure-tree {
 		li {
-			background: url(@theme_image_path@/journal/form_builder_bg.png);
+			background: url(@theme_image_path@/rtl/journal/form_builder_bg.png);
 			border: 1px solid #C6D9F0;
 			margin: 15px;
-			padding: 10px 22px 10px 10px;
+			padding:10px 22px 10px 10px;
 
 			&.structure-field {
 				.structure-field {
@@ -472,7 +471,7 @@
 				}
 
 				&.yui3-dd-draggable .journal-article-move-handler {
-					background: transparent url(@theme_image_path@/application/handle_sort_vertical.png) no-repeat scroll right 50%;
+					background: transparent url(@theme_image_path@/rtl/application/handle_sort_vertical.png) no-repeat scroll left 50%;
 					cursor: move;
 					display: block;
 					height: 20px;
@@ -484,7 +483,7 @@
 				}
 
 				.journal-article-close {
-					background: url(@theme_image_path@/journal/form_builder_close.png);
+					background: url(@theme_image_path@/rtl/journal/form_builder_close.png);
 					cursor: pointer;
 					display: block;
 					height: 29px;
@@ -631,61 +630,61 @@
 }
 
 .journal-component-text {
-	background-image: url(@theme_image_path@/journal/text_field.png);
+	background-image: url(@theme_image_path@/rtl/journal/text_field.png);
 	background-position: 3px 9px;
 }
 
 .journal-component-textbox {
-	background-image: url(@theme_image_path@/journal/textbox.png);
+	background-image: url(@theme_image_path@/rtl/journal/textbox.png);
 	background-position: 3px 6px;
 }
 
 .journal-component-textarea {
-	background-image: url(@theme_image_path@/journal/textarea.png);
+	background-image: url(@theme_image_path@/rtl/journal/textarea.png);
 	background-position: 3px 4px;
 }
 
 .journal-component-image {
-	background-image: url(@theme_image_path@/journal/image_uploader.png);
+	background-image: url(@theme_image_path@/rtl/journal/image_uploader.png);
 	background-position: 3px 7px;
 }
 
 .journal-component-documentlibrary {
-	background-image: url(@theme_image_path@/journal/document_library.png);
+	background-image: url(@theme_image_path@/rtl/journal/document_library.png);
 }
 
 .journal-component-boolean {
-	background-image: url(@theme_image_path@/journal/checkbox.png);
+	background-image: url(@theme_image_path@/rtl/journal/checkbox.png);
 	background-position: 3px 7px;
 }
 
 .journal-component-options {
-	background-image: url(@theme_image_path@/journal/options.png);
+	background-image: url(@theme_image_path@/rtl/journal/options.png);
 	background-position: 3px 5px;
 }
 
 .journal-component-list {
-	background-image: url(@theme_image_path@/journal/selectbox.png);
+	background-image: url(@theme_image_path@/rtl/journal/selectbox.png);
 	background-position: 3px 9px;
 }
 
 .journal-component-multilist {
-	background-image: url(@theme_image_path@/journal/multiselection_list.png);
+	background-image: url(@theme_image_path@/rtl/journal/multiselection_list.png);
 	background-position: 3px 4px;
 }
 
 .journal-component-linktolayout {
-	background-image: url(@theme_image_path@/journal/link_to_page.png);
+	background-image: url(@theme_image_path@/rtl/journal/link_to_page.png);
 	background-position: 3px 9px;
 }
 
 .journal-component-formgroup {
-	background-image: url(@theme_image_path@/journal/form_group.png);
+	background-image: url(@theme_image_path@/rtl/journal/form_group.png);
 	background-position: 3px 5px;
 }
 
 .journal-component-selectionbreak {
-	background-image: url(@theme_image_path@/journal/selection_break.png);
+	background-image: url(@theme_image_path@/rtl/journal/selection_break.png);
 	background-position: 3px 12px;
 }
 
@@ -713,7 +712,7 @@
 	}
 
 	&.not-intersecting .forbidden-action {
-		background: url(@theme_image_path@/application/forbidden_action.png) no-repeat;
+		background: url(@theme_image_path@/rtl/application/forbidden_action.png) no-repeat;
 		height: 32px;
 		position: absolute;
 		left: -15px;
@@ -731,7 +730,7 @@
 
 .journal-article-edit-field-wrapper {
 	&.aui-overlaycontextpanel {
-		margin: 0 13px 0 0;
+		margin:0 0 0 13px;
 		padding: 0;
 		position: relative;
 	}

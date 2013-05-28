@@ -1,6 +1,7 @@
 .lfr-editor-textarea {
 	padding: 0;
 	width: 100%;
+	direction: ltr;
 }
 
 .lfr-rich-editor.ace_editor {
@@ -8,6 +9,7 @@
 	height: 400px;
 	position: relative;
 	width: 100%;
+	direction: ltr;
 }
 
 .lfr-plain-editor textarea, .lfr-rich-editor.ace_editor {

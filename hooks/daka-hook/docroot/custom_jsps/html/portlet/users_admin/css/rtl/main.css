@@ -139,7 +139,7 @@
 		}
 
 		h3 {
-			background-image: url(@theme_image_path@/dock/home.png);
+			background-image: url(@theme_image_path@/rtl/dock/home.png);
 		}
 	}
 
@@ -148,19 +148,19 @@
 	}
 
 	.entity-comments h3 {
-		background-image: url(@theme_image_path@/dock/welcome_message.png);
+		background-image: url(@theme_image_path@/rtl/dock/welcome_message.png);
 	}
 
 	.entity-email-addresses h3 {
-		background-image: url(@theme_image_path@/mail/unread.png);
+		background-image: url(@theme_image_path@/rtl/mail/unread.png);
 	}
 
 	.entity-phones h3 {
-		background-image: url(@theme_image_path@/common/telephone.png);
+		background-image: url(@theme_image_path@/rtl/common/telephone.png);
 	}
 
 	.entity-websites h3 {
-		background-image: url(@theme_image_path@/common/history.png);
+		background-image: url(@theme_image_path@/rtl/common/history.png);
 	}
 
 	.radio-holder {
@@ -221,7 +221,7 @@
 	}
 
 	.permission-group {
-		margin: 10px 10px 0px 0px;
+		margin:10px 10px 0 0;
 	}
 
 	.view-all-link {

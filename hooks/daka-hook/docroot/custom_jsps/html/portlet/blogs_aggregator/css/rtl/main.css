@@ -15,7 +15,7 @@
 	}
 
 	.entry-author {
-		background: url(@theme_image_path@/portlet/edit_guest.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 50%;
 		border-left: 1px solid #999;
 		color: #999;
 		float: right;
@@ -32,7 +32,7 @@
 	}
 
 	.entry-date {
-		background: url(@theme_image_path@/common/date.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 50%;
 		color: #999;
 		float: right;
 		overflow: hidden;

@@ -17,7 +17,7 @@
 	}
 
 	.entry-author {
-		background: url(@theme_image_path@/portlet/edit_guest.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 50%;
 		border-left: 1px solid #999;
 		color: #999;
 		float: right;
@@ -32,7 +32,7 @@
 	}
 
 	.entry-date {
-		background: url(@theme_image_path@/common/date.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 50%;
 		color: #999;
 		padding-right: 25px;
 	}
@@ -56,7 +56,7 @@
 		padding: 5px;
 
 		h3 {
-			background: url(@theme_image_path@/common/page.png) no-repeat right 50%;
+			background: url(@theme_image_path@/rtl/common/page.png) no-repeat right 50%;
 			margin-top: 0;
 			padding-right: 20px;
 		}
@@ -74,17 +74,17 @@
 		}
 
 		.previous {
-			background-image: url(@theme_image_path@/arrows/paging_previous.png);
+			background-image: url(@theme_image_path@/rtl/arrows/paging_previous.png);
 			float: right;
 			padding-right: 15px;
 		}
 
 		span.previous {
-			background-position: right 100%;
+			background-position: 0 100%;
 		}
 
 		.next {
-			background-image: url(@theme_image_path@/arrows/paging_next.png);
+			background-image: url(@theme_image_path@/rtl/arrows/paging_next.png);
 			background-position: 100% 0;
 			float: left;
 			padding-left: 15px;
@@ -102,7 +102,7 @@
 	}
 
 	.search-form {
-		float: left;
+		float: right
 	}
 
 	.stats {

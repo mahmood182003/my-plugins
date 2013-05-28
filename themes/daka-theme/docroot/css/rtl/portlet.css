@@ -60,7 +60,7 @@ body.portlet {
 }
 
 .portlet-icon-back {
-	background: url(../../images/rtl/arrows/01_right.png) no-repeat right 50%;
+	background: url(../../images/arrows/01_right.png) no-repeat right 50%;
 	font-weight: bold;
 	padding: 5px 18px 5px 5px;
 }
