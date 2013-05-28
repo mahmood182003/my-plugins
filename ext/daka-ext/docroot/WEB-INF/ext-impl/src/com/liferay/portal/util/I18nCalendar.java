@@ -22,11 +22,11 @@ public class I18nCalendar extends java.util.GregorianCalendar {
 		super();
 	}
 
-	public I18nCalendar(boolean isPersian) {
+	public I18nCalendar(int calType) {
 
 		super();
 
-		if (isPersian) {
+		if (calType == PERSIAN) {
 			this.perCal = new PersianCalendar();
 		}
 	}
@@ -41,17 +41,32 @@ public class I18nCalendar extends java.util.GregorianCalendar {
 	public I18nCalendar(Locale locale) {
 
 		super(locale);
-
-		if ("fa".equals(locale.getLanguage())) {
-			this.perCal = new PersianCalendar(locale);
-		}
 	}
 
 	public I18nCalendar(TimeZone tz, Locale locale) {
 
 		super(tz, locale);
+	}
 
-		if ("fa".equals(locale.getLanguage())) {
+	public I18nCalendar(TimeZone tz) {
+
+		super(tz);
+	}
+
+	public I18nCalendar(Locale locale, int calType) {
+
+		super(locale);
+
+		if (calType == PERSIAN || (calType == AUTO && "fa".equals(locale.getLanguage()))) {
+			this.perCal = new PersianCalendar(locale);
+		}
+	}
+
+	public I18nCalendar(TimeZone tz, Locale locale, int calType) {
+
+		super(tz, locale);
+
+		if (calType == PERSIAN || (calType == AUTO && "fa".equals(locale.getLanguage()))) {
 			com.ibm.icu.util.TimeZone icu_tz = com.ibm.icu.util.TimeZone.getDefault();
 			icu_tz.setID(tz.getID());
 			icu_tz.setRawOffset(tz.getRawOffset());
@@ -59,9 +74,16 @@ public class I18nCalendar extends java.util.GregorianCalendar {
 		}
 	}
 
-	public I18nCalendar(TimeZone tz) {
+	public I18nCalendar(TimeZone tz, int calType) {
 
 		super(tz);
+
+		if (calType == PERSIAN) {
+			com.ibm.icu.util.TimeZone icu_tz = com.ibm.icu.util.TimeZone.getDefault();
+			icu_tz.setID(tz.getID());
+			icu_tz.setRawOffset(tz.getRawOffset());
+			this.perCal = new PersianCalendar(icu_tz);
+		}
 	}
 
 	public I18nCalendar(int year, int month, int date) {
@@ -266,7 +288,7 @@ public class I18nCalendar extends java.util.GregorianCalendar {
 	public Object clone() {
 
 		if (this.perCal != null) {
-			I18nCalendar i18Cal = new I18nCalendar(true);
+			I18nCalendar i18Cal = new I18nCalendar(PERSIAN);
 			i18Cal.setTimeZone(this.getTimeZone());
 			i18Cal.setTime1(this.getTime());
 			return i18Cal;
@@ -356,4 +378,7 @@ public class I18nCalendar extends java.util.GregorianCalendar {
 		super.setTime(date);
 	}
 
+	public static final int AUTO = 1;
+	public static final int PERSIAN = 2;
+	public static final int GREGORIAN = 3;
 }

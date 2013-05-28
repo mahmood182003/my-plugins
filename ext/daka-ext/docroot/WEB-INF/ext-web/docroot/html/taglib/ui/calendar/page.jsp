@@ -25,7 +25,7 @@ Format headerFormat = (Format)request.getAttribute("liferay-ui:calendar:headerFo
 Set data = (Set)request.getAttribute("liferay-ui:calendar:data");
 boolean showAllPotentialWeeks = GetterUtil.getBoolean((String)request.getAttribute("liferay-ui:calendar:showAllPotentialWeeks"));
 
-Calendar selCal = CalendarFactoryUtil.getCalendar(timeZone, locale);
+Calendar selCal = new I18nCalendar(timeZone, locale, I18nCalendar.AUTO);
 
 selCal.set(Calendar.MONTH, month);
 selCal.set(Calendar.DATE, (day == 0) ? 1 : day);
@@ -49,8 +49,6 @@ Calendar prevCal = (Calendar)selCal.clone();
 prevCal.add(Calendar.MONTH, -1);
 int maxDayOfPrevMonth = prevCal.getActualMaximum(Calendar.DATE);
 int weekNumber = 1;
-
-Calendar pc=CalendarFactoryUtil.getCalendar(timeZone);
 %>
 
 <div class="taglib-calendar">
@@ -144,12 +142,6 @@ Calendar pc=CalendarFactoryUtil.getCalendar(timeZone);
 				weekNumber++;
 			}
 
-			Calendar tempCal = (Calendar)selCal.clone();
-
-			tempCal.set(Calendar.MONTH, selMonth);
-			tempCal.set(Calendar.DATE, i);
-			tempCal.set(Calendar.YEAR, selYear);
-
 			boolean hasData = (data != null) && data.contains(new Integer(i));
 
 			String className = "";
@@ -173,7 +165,7 @@ Calendar pc=CalendarFactoryUtil.getCalendar(timeZone);
 		%>
 
 			<td class="<%= className %>">
-				<a href="javascript:<%= namespace %>updateCalendar(<%= selMonth %>, <%= i %>, <%= selYear %>);"><span><%= i %></span></a>
+				<a href="javascript:<%= namespace %>updateCalendar(<%= selMonth %>, <%= selDay %>, <%= selYear %>);"><span><%= i %></span></a>
 			</td>
 
 		<%

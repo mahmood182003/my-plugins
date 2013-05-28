@@ -94,7 +94,6 @@ page import="com.liferay.portal.kernel.util.ArrayUtil" %><%@
 page import="com.liferay.portal.kernel.util.BooleanWrapper" %><%@
 page import="com.liferay.portal.kernel.util.CalendarFactoryUtil" %><%@
 page import="com.liferay.portal.kernel.util.CalendarUtil" %><%@
-page import="com.liferay.portal.kernel.util.icu.PersianCalendar" %><%@
 page import="com.liferay.portal.util.I18nCalendar" %><%@
 page import="com.liferay.portal.kernel.util.CharPool" %><%@
 page import="com.liferay.portal.kernel.util.Constants" %><%@

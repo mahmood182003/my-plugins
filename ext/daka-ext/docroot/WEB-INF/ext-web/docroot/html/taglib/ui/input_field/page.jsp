@@ -64,7 +64,7 @@ Map<String, String> hints = ModelHintsUtil.getHints(model, field);
 		<c:when test='<%= type.equals("Date") %>'>
 
 			<%
-			Calendar pnow = CalendarFactoryUtil.getCalendar(timeZone, locale);
+			Calendar pnow = new I18nCalendar(timeZone, locale, I18nCalendar.AUTO);
 			Calendar gnow = CalendarFactoryUtil.getCalendar(timeZone);
 
 			String timeFormatPattern = ((SimpleDateFormat)(DateFormat.getTimeInstance(DateFormat.SHORT, locale))).toPattern();
@@ -81,16 +81,17 @@ Map<String, String> hints = ModelHintsUtil.getHints(model, field);
 
 			if (defaultValue != null) {
 				//cal = (Calendar)defaultValue;
-				gcal = CalendarFactoryUtil.getCalendar(); //a Gregorian calendar
+				gcal = CalendarFactoryUtil.getCalendar(timeZone); //a Gregorian calendar
 				gcal.set(Calendar.YEAR, ((Calendar)defaultValue).get(Calendar.YEAR));
 				gcal.set(Calendar.MONTH, ((Calendar)defaultValue).get(Calendar.MONTH));
 				gcal.set(Calendar.DATE, ((Calendar)defaultValue).get(Calendar.DATE));
 			}
+
 			else {
 				gcal = CalendarFactoryUtil.getCalendar(timeZone); //always a Gregorian calendar
 
 				Date date = (Date)BeanPropertiesUtil.getObject(bean, field);
-
+				%>date=<%=date.getYear()%><%
 				if (date == null) {
 					checkDefaultDelta = true;
 
@@ -186,7 +187,7 @@ Map<String, String> hints = ModelHintsUtil.getHints(model, field);
 				yearRangeDelta = GetterUtil.getInteger(hints.get("year-range-delta"), yearRangeDelta);
 			}
 
-			Calendar pcal = CalendarFactoryUtil.getCalendar(timeZone, locale); //depending on locale, Gregorian or Persian calendar
+			Calendar pcal = new I18nCalendar(timeZone, locale, I18nCalendar.AUTO); //depending on locale, Gregorian or Persian calendar
 
 			int yearRangeStart = gcal.get(Calendar.YEAR) - yearRangeDelta;
 			int yearRangeEnd = gcal.get(Calendar.YEAR) + yearRangeDelta;
@@ -242,7 +243,6 @@ Map<String, String> hints = ModelHintsUtil.getHints(model, field);
 
 			if ((hour == -1) && (pcal != null)) {
 				hour =gcal.get(Calendar.HOUR_OF_DAY);
-
 				if (timeFormatAmPm) {
 					hour = gcal.get(Calendar.HOUR);
 				}

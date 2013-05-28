@@ -63,7 +63,7 @@ else if (dateFormatPattern.indexOf("d") == 0) {
 
 Date selectedDate = new Date();
 
-Calendar gcal = CalendarFactoryUtil.getCalendar();
+Calendar gcal = CalendarFactoryUtil.getCalendar(timeZone);
 
 gcal.setTime(selectedDate);
 
@@ -94,7 +94,7 @@ else if (yearNullable) {
 	yearEmpty = true;
 }
 
-I18nCalendar pcal =(I18nCalendar)CalendarFactoryUtil.getCalendar(locale);
+I18nCalendar pcal =new I18nCalendar(locale, I18nCalendar.AUTO);
 pcal.setTime1(gcal.getTime());
 
 int yearValue1 = pcal.get(Calendar.YEAR);
