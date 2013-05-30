@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: calendar-ext
+Bundle-SymbolicName: calendar-ext
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: calendar-ext.jar,
+ docroot/WEB-INF/ext-lib/global/icu4j_3_2_calendar.jar
+Export-Package: com.ibm.icu.impl,
+ com.ibm.icu.impl.data,
+ com.ibm.icu.impl.data.icudt32b,
+ com.ibm.icu.lang,
+ com.ibm.icu.math,
+ com.ibm.icu.text,
+ com.ibm.icu.util,
+ com.liferay.portal.kernel.util,
+ com.liferay.portal.kernel.util.icu
