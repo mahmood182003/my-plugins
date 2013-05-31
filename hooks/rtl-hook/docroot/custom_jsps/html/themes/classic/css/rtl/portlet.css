@@ -193,7 +193,7 @@ body.portlet {
 /* ---------- Messages ---------- */
 
 .portlet-msg {
-	background: #EEE none no-repeat 98% 50%;   /*rtl*/
+	background: #EEE none no-repeat 99% 50%;   /*rtl*/
 	border: 1px solid #555;
 	color: #34404F;
 	display: block;
