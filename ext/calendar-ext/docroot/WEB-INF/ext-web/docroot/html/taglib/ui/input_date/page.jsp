@@ -14,7 +14,6 @@
  */
 --%>
 
-<%@page import="com.liferay.portal.util.I18nCalendar"%>
 <%@ include file="/html/taglib/init.jsp" %>
 
 <%

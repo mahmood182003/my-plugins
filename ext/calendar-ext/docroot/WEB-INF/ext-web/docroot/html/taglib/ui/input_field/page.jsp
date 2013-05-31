@@ -88,10 +88,10 @@ Map<String, String> hints = ModelHintsUtil.getHints(model, field);
 			}
 
 			else {
-				gcal = CalendarFactoryUtil.getCalendar(timeZone); //always a Gregorian calendar
+				gcal = CalendarFactoryUtil.getCalendar(timeZone);
 
 				Date date = (Date)BeanPropertiesUtil.getObject(bean, field);
-				%>date=<%=date.getYear()%><%
+
 				if (date == null) {
 					checkDefaultDelta = true;
 
@@ -280,38 +280,7 @@ Map<String, String> hints = ModelHintsUtil.getHints(model, field);
 
 			%>
 
-			<liferay-ui:input-date
-				cssClass="<%= cssClass %>"
-				dayNullable="<%= dayNullable %>"
-				dayParam='<%= fieldParam + "Day" %>'
-				dayValue="<%= day %>"
-				disabled="<%= disabled %>"
-				firstDayOfWeek="<%= firstDayOfWeek %>"
-				formName="<%= formName %>"
-				imageInputId='<%= fieldParam + "ImageInputId" %>'
-				monthNullable="<%= monthNullable %>"
-				monthParam='<%= fieldParam + "Month" %>'
-				monthValue="<%= month %>"
-				yearNullable="<%= yearNullable %>"
-				yearParam='<%= fieldParam + "Year" %>'
-				yearRangeEnd="<%= yearRangeEnd %>"
-				yearRangeStart="<%= yearRangeStart %>"
-				yearValue="<%= year %>"
-			/>
 
-			<c:if test="<%= showTime %>">
-				<liferay-ui:input-time
-					amPmParam='<%= fieldParam + "AmPm" %>'
-					amPmValue="<%= amPm %>"
-					cssClass="<%= cssClass %>"
-					disabled="<%= disabled %>"
-					hourParam='<%= fieldParam + "Hour" %>'
-					hourValue="<%= hour %>"
-					minuteInterval="<%= 1 %>"
-					minuteParam='<%= fieldParam + "Minute" %>'
-					minuteValue="<%= minute %>"
-				/>
-			</c:if>
 		</c:when>
 		<c:when test='<%= type.equals("double") || type.equals("int") || type.equals("long") || type.equals("String") %>'>
 
