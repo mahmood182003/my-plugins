@@ -193,7 +193,7 @@ body.portlet {
 /* ---------- Messages ---------- */
 
 .portlet-msg {
-	background: #EEE none no-repeat 95% 50%;   /*rtl*/
+	background: #EEE none no-repeat 98% 50%;   /*rtl*/
 	border: 1px solid #555;
 	color: #34404F;
 	display: block;
@@ -242,7 +242,7 @@ body.portlet {
 	@extend .portlet-msg;
 	background-color: #FFC;
 	background-image: url(../../images/rtl/messages/alert.png);
-	background-position: 6px 20%;
+	background-position: 96% 20%;   /*rtl*/
 	border-color: #FC0;
 }
 
@@ -318,7 +318,7 @@ body.portlet {
 
 	.lfr-message-close {
 		background-image: url(../../images/rtl/portlet/close_borderless.png);
-		background-position: 0 0;
+		background-position: right 0;   /*rtl*/
 		background-repeat: no-repeat;
 	}
 
@@ -532,7 +532,7 @@ body.portlet {
 .restricted, .alt.restricted {
 	td.col-1 {
 		background-image: url(../../images/rtl/messages/error.png);
-		background-position: 5px 50%;
+		background-position: 97% 50%;   /*rtl*/
 		background-repeat: no-repeat;
 		padding-right: 28px;   /*rtl*/
 	}
@@ -543,7 +543,7 @@ body.portlet {
 .results-row, .results-row.hover {
 	&.lfr-role .col-1 {
 		background-image: url();
-		background-position: 5px 50%;
+		background-position: 97% 50%;   /*rtl*/
 		background-repeat: no-repeat;
 		padding-right: 30px;   /*rtl*/
 	}
@@ -625,7 +625,7 @@ body.portlet {
 	&.portlet-options {
 		background: none;
 		border: none;
-		float: right;   /*rtl*/
+		float: left;
 
 		.lfr-trigger {
 			padding: 0;
@@ -636,7 +636,7 @@ body.portlet {
 
 				a {
 					background-image: url(../../images/rtl/portlet/options.png);
-					background-position: 0 0;
+					background-position: right 0;   /*rtl*/
 					display: block;
 					font-size: 0;
 					height: 16px;

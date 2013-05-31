@@ -7,7 +7,7 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/docroot/WEB-INF/ext-util-bridges/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/docroot/WEB-INF/ext-util-java/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/docroot/WEB-INF/ext-util-taglib/src"/>
-        <property name="java-output-path" value="/calendar-ext/build/classes"/>
         <property name="context-root" value="calendar-ext"/>
+        <property name="java-output-path" value="/calendar-ext/build/classes"/>
     </wb-module>
 </project-modules>

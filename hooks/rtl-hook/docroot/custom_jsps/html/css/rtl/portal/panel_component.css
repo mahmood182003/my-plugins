@@ -22,7 +22,7 @@
 }
 
 .lfr-panel.lfr-collapsible .lfr-panel-titlebar {
-	background: url(@theme_image_path@/rtl/arrows/05_down.png) no-repeat 98% 50%;
+	background: url(@theme_image_path@/rtl/arrows/05_down.png) no-repeat 100% 50%;
 	cursor: pointer;
 	padding-right: 15px;
 }

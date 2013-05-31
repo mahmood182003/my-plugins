@@ -371,7 +371,7 @@ html > .lfr-dockbar-pinned {
 }
 
 .dockbar .menu-button {
-	background: url(../../images/rtl/arrows/05_down.png) no-repeat 94% 50%;   /*rtl*/   /*rtl*/
+	background: url(../../images/rtl/arrows/05_down.png) no-repeat 7px 50%;   /*rtl*/
 	display: inline-block;
 	padding: 5px 5px 5px 20px;   /*rtl*/
 	text-decoration: none;
