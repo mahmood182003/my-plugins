@@ -13,3 +13,5 @@
  * details.
  */
 --%>
+
+<%@page import="com.liferay.portal.util.I18nCalendar"%>

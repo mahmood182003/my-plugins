@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="rtl-hook">
+    <wb-module deploy-name="bidi-hook">
         <wb-resource deploy-path="/" source-path="/docroot" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/docroot/WEB-INF/src"/>
-        <property name="context-root" value="rtl-hook"/>
-        <property name="java-output-path" value="/rtl-hook/docroot/WEB-INF/classes"/>
+        <property name="java-output-path" value="/bidi-hook/docroot/WEB-INF/classes"/>
+        <property name="context-root" value="bidi-hook"/>
     </wb-module>
 </project-modules>
