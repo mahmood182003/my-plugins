@@ -45,37 +45,38 @@
 		}
 			}
 
-			for (Portlet curPortlet : portlets) {
+	for (Portlet curPortlet : portlets) {
 		for (String headerPortletCss : curPortlet.getHeaderPortletCss()) {
-
-					String path = headerPortletCss;
-					if ("fa_IR".equals(themeDisplay.getLanguageId())) {
-						path =
-							headerPortletCss.substring(
-								0, headerPortletCss.lastIndexOf('/'));
-						String css_file =
-							headerPortletCss.substring(headerPortletCss.lastIndexOf('/'));
-						path = path.concat("/rtl").concat(css_file);
-					}
-
-					if (!HttpUtil.hasProtocol(headerPortletCss)) {
+			if (!HttpUtil.hasProtocol(headerPortletCss)) {
 						Portlet curRootPortlet =
 							curPortlet.getRootPortlet();
 
 						headerPortletCss =
 							PortalUtil.getStaticResourceURL(
 								request,
-								curPortlet.getStaticResourcePath() + path,
+								curPortlet.getStaticResourcePath() + headerPortletCss,
 								curRootPortlet.getTimestamp());
 					}
 
 					if (!portletResourceStaticURLs.contains(headerPortletCss)) {
 						portletResourceStaticURLs.add(headerPortletCss);
-	%>
 
-				<link href="<%= HtmlUtil.escape(headerPortletCss) %>" rel="stylesheet" type="text/css" />
+						String headerPortletCss_rtl = headerPortletCss;
+						if ("fa_IR".equals(themeDisplay.getLanguageId())) {
+							headerPortletCss_rtl =
+								headerPortletCss.substring(
+									0, headerPortletCss.lastIndexOf('/'));
+							String css_file =
+								headerPortletCss.substring(headerPortletCss.lastIndexOf('/'));
+							headerPortletCss_rtl = headerPortletCss_rtl.concat("/rtl").concat(css_file);
+						}
 
-	<%
+
+						%>
+
+				<link href="<%= HtmlUtil.escape(headerPortletCss_rtl) %>" rel="stylesheet" type="text/css" />
+<%-- 				<link href="<%= HtmlUtil.escape(headerPortletCss) %>" rel="stylesheet" type="text/css" />
+ --%>	<%
 			}
 		}
 	}
