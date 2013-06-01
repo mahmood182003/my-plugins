@@ -80,7 +80,7 @@
 		}
 
 		span.previous {
-			background-position: 0 100%;
+			background-position: right 100%   /*rtl*/
 		}
 
 		.next {

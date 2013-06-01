@@ -242,7 +242,7 @@
 .ie {
 	.portlet-calendar {
 		.calendar-container {
-			background-position: 0 98%;
+			background-position: right 98%   /*rtl*/
 		}
 	}
 }

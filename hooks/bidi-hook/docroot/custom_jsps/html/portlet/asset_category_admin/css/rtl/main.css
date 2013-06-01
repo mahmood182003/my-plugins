@@ -264,7 +264,7 @@
 			}
 
 			&.aui-tree-collapsed .aui-tree-hitarea {
-				background-position: 0 50%;
+				background-position: right 50%   /*rtl*/
 			}
 
 			.aui-tree-node-checkbox-container, .aui-tree-label {

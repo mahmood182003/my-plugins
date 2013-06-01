@@ -120,7 +120,7 @@
 
 			a {
 				background-image: url(@theme_image_path@/rtl/arrows/06_down.png);
-				background-position: 0 4px;
+				background-position: right 4px   /*rtl*/
 				padding: 0 5px;
 				opacity: 0.5;
 			}
