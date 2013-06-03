@@ -17,6 +17,7 @@
 
 .dockbar {
   background: #97a1ae url(../../images/rtl/dockbar/dockbar_bg.png) repeat-x right 0;
+  /*rtl*/
   border-bottom: 1px solid #636364;
   font-size: 13px;
   padding: 1px 5px;
@@ -36,6 +37,7 @@
 .ie6 .dockbar, .ie6 .lfr-dockbar-pinned .dockbar {
   height: 10px;
   right: 0;
+  /*rtl*/
   position: relative;
   top: 0; }
 
@@ -45,7 +47,8 @@
   text-shadow: 1px 1px #FFF; }
 
 .dockbar .menu-button-active {
-  background: #5c94da url(../../images/rtl/dockbar/button_active_bg.png) repeat-x right 0; }
+  background: #5c94da url(../../images/rtl/dockbar/button_active_bg.png) repeat-x right 0;
+  /*rtl*/ }
 
 .dockbar .menu-button-active a {
   color: #FFF;
@@ -53,33 +56,40 @@
 
 .dockbar .user-avatar .sign-out {
   font-size: 0.8em;
-  padding-right: 0; }
+  padding-right: 0;
+  /*rtl*/ }
 
 .dockbar ul {
   margin: 0;
   padding: 0; }
 
 .dockbar li li {
-  margin-right: 0; }
+  margin-right: 0;
+  /*rtl*/ }
 
 html > .lfr-dockbar-pinned {
   padding-top: 3.45em; }
 
 .lfr-dockbar-pinned .dockbar {
   right: 0;
+  /*rtl*/
   position: fixed;
   left: 0;
+  /*rtl*/
   top: 0; }
 
 .dockbar .pin-dockbar {
-  margin-right: 0;
-  float: left; }
+  margin-right: 10px;
+  /*rtl*/
+  float: left;
+  /*rtl*/ }
 
 .ie6 .dockbar .pin-dockbar {
   display: none; }
 
 .pin-dockbar img {
   background: url(../../images/rtl/dockbar/pin.png) no-repeat right 0;
+  /*rtl*/
   height: 27px;
   vertical-align: middle;
   width: 27px; }
@@ -96,7 +106,9 @@ html > .lfr-dockbar-pinned {
 
 .dockbar .impersonating-user {
   background: url(../../images/rtl/messages/alert.png) no-repeat right 50%;
-  padding-right: 20px; }
+  /*rtl*/
+  padding-right: 20px;
+  /*rtl*/ }
 
 .dockbar .impersonating-user .user-links a {
   color: #999; }
@@ -109,7 +121,8 @@ html > .lfr-dockbar-pinned {
   margin: 1em; }
 
 .layout-revision-container {
-  margin: 1em 0 0 1em;
+  margin: 1em 1em 0 0;
+  /*rtl*/
   padding: 0; }
   .layout-revision-container .aproximate-date {
     color: #999;
@@ -122,6 +135,7 @@ html > .lfr-dockbar-pinned {
     width: 0; }
   .layout-revision-container .current-version-pointer img {
     right: -25px;
+    /*rtl*/
     position: relative; }
   .layout-revision-container .layout-variation-name {
     color: #666;
@@ -133,10 +147,12 @@ html > .lfr-dockbar-pinned {
   .layout-revision-container .real-date {
     color: #999;
     display: block;
-    text-align: left; }
+    text-align: left;
+    /*rtl*/ }
   .layout-revision-container .taglib-workflow-status .workflow-status {
     background: none;
-    padding-right: 0; }
+    padding-right: 0;
+    /*rtl*/ }
     .layout-revision-container .taglib-workflow-status .workflow-status .workflow-status-ready-for-publication {
       color: #41801d;
       font-weight: bold; }
@@ -146,7 +162,9 @@ html > .lfr-dockbar-pinned {
 
 .staging-details {
   background: url() no-repeat right 0;
+  /*rtl*/
   padding-right: 65px;
+  /*rtl*/
   min-height: 50px; }
 
 .staging .staging-details {
@@ -172,13 +190,16 @@ html > .lfr-dockbar-pinned {
   float: right; }
 
 .dockbar .user-toolbar .my-sites {
+  /*rtl*/
   float: left; }
 
 .dockbar .user-toolbar .user-avatar {
+  /*rtl*/
   float: right;
   margin-right: 10px; }
 
 .dockbar .user-toolbar .aui-toolbar-separator {
+  /*rtl*/
   float: left;
   height: 26px; }
 
@@ -193,13 +214,16 @@ html > .lfr-dockbar-pinned {
   padding: 0 10px 10px; }
 
 .add-application {
-  right: 10px !important; }
+  right: 10px !important;
+  /*rtl*/ }
 
 .lfr-has-sidebar #main-content {
-  padding-right: 220px; }
+  padding-right: 220px;
+  /*rtl*/ }
 
 .manage-layouts {
-  right: 60px !important; }
+  right: 60px !important;
+  /*rtl*/ }
 
 .my-sites-menu {
   max-width: 350px; }
@@ -218,20 +242,25 @@ html > .lfr-dockbar-pinned {
   display: block;
   overflow: hidden;
   text-align: left;
+  /*rtl*/
   white-space: nowrap; }
 
 .my-sites-menu .control-panel a {
-  background: url(../../images/rtl/dock/control_panel.png) no-repeat 98% 50%;
-  padding-right: 25px; }
+  background: url(../../images/rtl/dock/control_panel.png) no-repeat 97% 50%;
+  /*rtl*/
+  padding-right: 25px;
+  /*rtl*/ }
 
 .my-sites-menu .current-site {
   border: solid #1D4280;
   border-width: 1px 0; }
 
 .my-sites-menu .current-site a {
-  background: #3068ba url(../../images/rtl/arrows/01_right.png) no-repeat scroll 98% 30%;
+  background: #3068ba url(../../images/rtl/arrows/01_left.png) no-repeat scroll 98% 30%;
+  /*rtl*/
   color: #FFF;
   padding-right: 20px;
+  /*rtl*/
   text-shadow: 1px 1px #333; }
 
 .my-sites-menu .current-site .site-type {
@@ -243,14 +272,17 @@ html > .lfr-dockbar-pinned {
 
 .my-sites-menu .site-name {
   cursor: pointer;
-  float: right; }
+  float: right;
+  /*rtl*/ }
 
 .my-sites-menu .site-type {
   color: #777;
   float: left;
+  /*rtl*/
   font-size: 0.8em;
   font-weight: normal;
-  margin-right: 10px; }
+  margin-right: 10px;
+  /*rtl*/ }
 
 .ie7 .my-sites-menu .site-type {
   float: none; }
@@ -260,7 +292,8 @@ html > .lfr-dockbar-pinned {
 
 .ie7 .my-sites-menu a {
   overflow: visible;
-  text-align: right; }
+  text-align: right;
+  /*rtl*/ }
 
 .ie7 .my-sites-menu .site-name {
   float: none; }
@@ -275,8 +308,10 @@ html > .lfr-dockbar-pinned {
   height: 1%; }
 
 .dockbar .toggle-controls a {
-  background: url(../../images/rtl/dockbar/checked.png) no-repeat 98% 50%;
-  padding-right: 20px; }
+  background: url(../../images/rtl/dockbar/checked.png) no-repeat right 50%;
+  /*rtl*/
+  padding-right: 20px;
+  /*rtl*/ }
 
 .controls-hidden .toggle-controls a {
   background-image: url(../../images/rtl/dockbar/unchecked.png); }
@@ -285,14 +320,18 @@ html > .lfr-dockbar-pinned {
   background-image: url(../../images/rtl/dockbar/unchecked.png); }
 
 .dockbar .menu-button {
-  background: url(../../images/rtl/arrows/05_down.png) no-repeat 93% 50%;
+  background: url(../../images/rtl/arrows/05_down.png) no-repeat 7px 50%;
+  /*rtl*/
   display: inline-block;
-  padding: 5px 20px 5px 5px;
+  padding: 5px 5px 5px 20px;
+  /*rtl*/
   text-decoration: none; }
 
 .dockbar .menu-button span {
-  background: url() no-repeat 98% 50%;
-  padding-right: 20px; }
+  background: url() no-repeat right 50%;
+  /*rtl*/
+  padding-right: 20px;
+  /*rtl*/ }
 
 .dockbar .add-content .menu-button span {
   background-image: url(../../images/rtl/common/add.png); }
@@ -305,7 +344,9 @@ html > .lfr-dockbar-pinned {
 
 .dockbar-messages-container {
   right: 50%;
-  margin-right: -150px; }
+  /*rtl*/
+  margin-right: -150px;
+  /*rtl*/ }
 
 .dockbar-messages {
   width: 300px; }
@@ -322,20 +363,26 @@ html > .lfr-dockbar-pinned {
   padding-top: 0; }
 
 .add-content-menu .add-page a {
-  background: url(../../images/rtl/navigation/add_page.png) no-repeat 98% 50%;
-  padding-right: 25px; }
+  background: url(../../images/rtl/navigation/add_page.png) no-repeat 97% 50%;
+  /*rtl*/
+  padding-right: 25px;
+  /*rtl*/ }
 
 .add-content-menu .add-application a {
-  background: url(../../images/rtl/common/portlet.png) no-repeat 98% 50%;
-  padding-right: 25px; }
+  background: url(../../images/rtl/common/portlet.png) no-repeat 97% 50%;
+  /*rtl*/
+  padding-right: 25px;
+  /*rtl*/ }
 
 .add-content-menu a.lfr-portlet-used {
   color: #999;
   cursor: auto; }
 
 .manage-content-menu li a, .manage-content-menu li .disabled {
-  background: url() no-repeat 98% 50%;
-  padding-right: 25px; }
+  background: url() no-repeat 97% 50%;
+  /*rtl*/
+  padding-right: 25px;
+  /*rtl*/ }
 
 .manage-content-menu .manage-page a {
   background-image: url(../../images/rtl/dock/page_settings.png); }
@@ -375,7 +422,8 @@ html > .lfr-dockbar-pinned {
   vertical-align: middle; }
 
 .page-customization-bar .page-customization-actions {
-  padding-right: 5em; }
+  padding-right: 5em;
+  /*rtl*/ }
 
 .page-customization-bar .page-customization-actions a {
   color: #EEE;
@@ -384,5 +432,6 @@ html > .lfr-dockbar-pinned {
 
 .page-customization-bar .reset-prototype {
   display: inline;
-  padding-right: 1em; }
+  padding-right: 1em;
+  /*rtl*/ }
 

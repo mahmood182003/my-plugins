@@ -15,10 +15,12 @@
   padding: 5px; }
 
 .portlet-column-content-only, .ltr .portlet-column-content-first, .rtl .portlet-column-content-last {
-  padding-right: 0; }
+  padding-right: 0;
+  /*rtl*/ }
 
 .portlet-column-content-only, .ltr .portlet-column-content-last, .rtl .portlet-column-content-first {
-  padding-left: 0; }
+  padding-left: 0;
+  /*rtl*/ }
 
 /* ---------- Column widths ---------- */
 .portlet-column-content.empty {
@@ -33,10 +35,12 @@
   height: 1%; }
 .ie6 div.portlet-column, .ie7 div.portlet-column {
   float: right;
+  /*rtl*/
   overflow: hidden;
   width: 100%; }
 .ie6 div.aui-column-last, .ie7 div.aui-column-last {
-  margin-left: -1px; }
+  margin-left: -1px;
+  /*rtl*/ }
 .ie6 .portlet-column-content, .ie7 .portlet-column-content {
   zoom: 1; }
 

@@ -19,7 +19,8 @@ address, caption, cite, code, dfn, th, var {
   font-weight: normal; }
 
 caption, th {
-  text-align: right; }
+  text-align: right;
+  /*rtl*/ }
 
 q:before, q:after {
   content: ''; }
@@ -53,7 +54,8 @@ blockquote, ul, ol, dl {
   margin: 1em; }
 
 ol, ul, dl {
-  margin-right: 2em; }
+  margin-right: 2em;
+  /*rtl*/ }
 
 ol {
   list-style: decimal outside; }
@@ -68,7 +70,8 @@ ol ol {
   list-style-type: upper-roman; }
 
 dl dd {
-  margin-right: 1em; }
+  margin-right: 1em;
+  /*rtl*/ }
 
 th {
   font-weight: bold; }
@@ -112,19 +115,21 @@ body.html-editor {
   color: #000; }
 
 .html-editor.portlet-message-boards blockquote {
-  background: #eef0f2 url(../../images/rtl/message_boards/quoteleft.png) no-repeat 5px 5px;
+  background: #eef0f2 url(../../images/rtl/message_boards/quoteleft.png) no-repeat 96% 5px;
+  /*rtl*/
   border: 1px solid #777;
   position: relative;
   padding: 5px 45px; }
 
 .html-editor.portlet-message-boards blockquote:after {
-  background: url(../../images/rtl/message_boards/quoteright.png) no-repeat 50%;
+  background: url(../../images/rtl/message_boards/quoteleft.png) no-repeat 50%;
   bottom: 5px;
   content: '';
   display: block;
   height: 24px;
   position: absolute;
   left: 5px;
+  /*rtl*/
   width: 31px;
   z-index: 999; }
 
@@ -171,6 +176,7 @@ code, pre {
 .portal-add-content {
   background: #FFF;
   text-align: right;
+  /*rtl*/
   z-index: 20; }
 
 .portal-add-content a {
@@ -181,7 +187,8 @@ code, pre {
   background: url(../../images/rtl/progress_bar/loading_animation.gif) no-repeat top center;
   margin-top: 10px;
   padding-top: 40px;
-  text-align: right; }
+  text-align: right;
+  /*rtl*/ }
 
 /* ---------- Separator ---------- */
 hr, .separator {
@@ -191,7 +198,8 @@ hr, .separator {
 .update-available {
   margin-top: 10px;
   padding: 2px;
-  text-align: right; }
+  text-align: right;
+  /*rtl*/ }
 
 /* ---------- Text highlighting ---------- */
 .highlight {

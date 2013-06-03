@@ -11,9 +11,14 @@ body.portlet {
 .portlet-title {
   display: block;
   font-size: 1em;
-  margin: 0; }
+  margin: 0;
+  text-align: left; }
   .portlet-title img {
-    vertical-align: middle; }
+    vertical-align: middle;
+    float: left;
+    /*rtl*/
+    margin-right: 4px;
+    /*rtl*/ }
 
 .portlet-title-text {
   cursor: pointer; }
@@ -26,11 +31,15 @@ body.portlet {
   padding: 2px;
   position: absolute;
   right: 3px;
+  /*rtl*/
   text-align: right;
-  top: 3px; }
+  /*rtl*/
+  top: 3px;
+  direction: ltr; }
   .portlet-topper-toolbar .nobr {
     display: block;
-    float: left;
+    float: right;
+    /*rtl*/
     padding: 1px; }
 
 .portlet-content, .portlet-minimized .portlet-content-container {
@@ -40,14 +49,17 @@ body.portlet {
   padding: 0; }
 
 .portlet-icon-back {
-  background: url(../../images/rtl/arrows/01_right.png) no-repeat right 50%;
+  background: url(../../images/rtl/arrows/01_left.png) no-repeat right 50%;
+  /*rtl*/
   font-weight: bold;
-  padding: 5px 5px 5px 18px; }
+  padding: 5px 18px 5px 5px;
+  /*rtl*/ }
 
 .portlet-nested-portlets .portlet-boundary {
   position: relative !important;
   top: 0 !important;
-  left: 0 !important; }
+  right: 0 !important;
+  /*rtl*/ }
 
 /* ---------- Borderless portlet ---------- */
 .portlet-borderless-container {
@@ -61,23 +73,28 @@ body.portlet {
   opacity: 0.3;
   padding: 2px 5px 1px;
   position: absolute;
-  right: 0;
+  left: 0;
+  /*rtl*/
   text-shadow: -1px -1px black;
   top: 0;
   z-index: 200; }
   .portlet-borderless-bar a {
     background: url() no-repeat right 50%;
+    /*rtl*/
     color: #3AF;
     display: inline-block;
     height: 16px;
-    margin-left: 5px;
+    margin-right: 5px;
+    /*rtl*/
     text-indent: -9999px;
     vertical-align: top;
     width: 16px; }
   .portlet-borderless-bar .portlet-actions {
     display: none;
-    float: left;
-    margin-right: 20px; }
+    float: right;
+    /*rtl*/
+    margin-left: 20px;
+    /*rtl*/ }
   .portlet-borderless-bar .portlet-title-default, .portlet-borderless-bar .portlet-actions {
     min-height: 20px;
     vertical-align: top; }
@@ -87,6 +104,8 @@ body.portlet {
     height: auto;
     text-indent: 0;
     width: auto; }
+  .portlet-borderless-bar .portlet-close {
+    float: right; }
   .portlet-borderless-bar .portlet-close a {
     background-image: url(../../images/rtl/portlet/close_borderless.png); }
   .portlet-borderless-bar .portlet-options li.lfr-trigger strong a {
@@ -99,7 +118,8 @@ body.portlet {
 
 .portlet-title-default {
   display: inline-block;
-  float: right;
+  float: left;
+  /*rtl*/
   font-weight: bold;
   text-transform: uppercase; }
 
@@ -107,8 +127,10 @@ body.portlet {
   cursor: move; }
 .portlet-draggable .portlet-title-default {
   background: url(../../images/rtl/portlet/draggable_borderless.png) no-repeat right 50%;
+  /*rtl*/
   cursor: move;
-  padding-left: 20px; }
+  padding-right: 20px;
+  /*rtl*/ }
 
 /* ---------- Panel Page ---------- */
 .lfr-panel-page {
@@ -124,14 +146,17 @@ body.portlet {
 /* ---------- Font attributes similar to the .portlet-font but the color is lighter ---------- */
 /* ---------- Messages ---------- */
 .portlet-msg, .portlet-msg-info, .portlet-msg-help, .lfr-message-help, .portlet-msg-progress, .lfr-message-progress, .lfr-message-info, .portlet-msg-error, .lfr-message-error, .portlet-msg-alert, .lfr-message-alert, .portlet-msg-success, .lfr-message-success {
-  background: #EEE none no-repeat 6px 50%;
+  background: #EEE none no-repeat 99% 50%;
+  /*rtl*/
   border: 1px solid #555;
   color: #34404F;
   display: block;
   font-weight: bold;
   margin: 2px auto 14px;
-  padding: 6px 6px 6px 30px;
-  text-align: left; }
+  padding: 6px 30px 6px 6px;
+  /*rtl*/
+  text-align: right;
+  /*rtl*/ }
 
 /* ---------- Status of the current operation ---------- */
 /* ---------- Help messages, general additional information, etc. ---------- */
@@ -156,7 +181,8 @@ body.portlet {
 .portlet-msg-alert, .lfr-message-alert {
   background-color: #FFC;
   background-image: url(../../images/rtl/messages/alert.png);
-  background-position: 6px 20%;
+  background-position: 96% 20%;
+  /*rtl*/
   border-color: #FC0; }
 
 /* ---------- Success messages ---------- */
@@ -169,7 +195,9 @@ body.portlet {
 /* ---------- Message labels ---------- */
 .portlet-msg-alert-label, .portlet-msg-error-label, .portlet-msg-info-label, .portlet-msg-progress-label, .portlet-msg-success-label {
   background: none no-repeat right 50%;
-  padding: 3px 3px 3px 20px;
+  /*rtl*/
+  padding: 3px 20px 3px 3px;
+  /*rtl*/
   font-weight: bold; }
 
 .portlet-msg-alert-label {
@@ -196,8 +224,10 @@ body.portlet {
 
 /* ---------- Liferay Messages ---------- */
 .lfr-message-content, .lfr-message-info, .lfr-message-help, .lfr-message-error, .lfr-message-alert, .lfr-message-success {
+  border-right-width: 0;
+  /*rtl*/
   border-left-width: 0;
-  border-right-width: 0; }
+  /*rtl*/ }
 
 .lfr-message {
   position: relative; }
@@ -206,20 +236,23 @@ body.portlet {
     display: inline-block; }
   .lfr-message .lfr-message-controls {
     display: none;
-    left: 3px;
+    right: 3px;
+    /*rtl*/
     margin: -8px 8px 0 3px;
     position: absolute;
     top: 50%;
     z-index: 10; }
   .lfr-message .lfr-message-close {
     background-image: url(../../images/rtl/portlet/close_borderless.png);
-    background-position: 0 0;
+    background-position: right 0;
+    /*rtl*/
     background-repeat: no-repeat; }
   .lfr-message .lfr-message-close-all {
     color: #FFF;
     display: none;
     font-size: 0.8em;
-    margin-left: 10px;
+    margin-right: 10px;
+    /*rtl*/
     padding: 1px 10px;
     text-shadow: 1px 1px 0 #000;
     vertical-align: top; }
@@ -287,16 +320,20 @@ body.portlet {
 
 .restricted td.col-1, .alt.restricted td.col-1 {
   background-image: url(../../images/rtl/messages/error.png);
-  background-position: 98% 50%;
+  background-position: 97% 50%;
+  /*rtl*/
   background-repeat: no-repeat;
-  padding-left: 28px; }
+  padding-right: 28px;
+  /*rtl*/ }
 
 /* ---------- Permissions ---------- */
 .results-row.lfr-role .col-1, .results-row.hover.lfr-role .col-1 {
   background-image: url();
-  background-position: 98% 50%;
+  background-position: 97% 50%;
+  /*rtl*/
   background-repeat: no-repeat;
-  padding-left: 30px; }
+  padding-right: 30px;
+  /*rtl*/ }
 .results-row.lfr-role-guest .col-1, .results-row.hover.lfr-role-guest .col-1 {
   background-image: url(../../images/rtl/common/guest_icon.png); }
 .results-row.lfr-role-regular .col-1, .results-row.hover.lfr-role-regular .col-1 {
@@ -316,6 +353,7 @@ body.portlet {
 /* ---------- Actions button ---------- */
 .lfr-actions.lfr-extended, .lfr-actions.lfr-extended ul {
   background: white url(../../images/rtl/forms/button.png) repeat-x right 100%;
+  /*rtl*/
   border: 1px solid;
   border-color: #DEDEDE #BFBFBF #BFBFBF #DEDEDE; }
 .lfr-actions ul {
@@ -327,12 +365,14 @@ body.portlet {
   border-bottom: 1px solid #DEDEDE;
   padding: 2px; }
   .lfr-actions .lfr-trigger li a {
-    padding: 5px 10px 5px 25px; }
+    padding: 5px 25px 5px 10px;
+    /*rtl*/ }
     .lfr-actions .lfr-trigger li a:hover {
       background-color: #828F95;
       color: #FFF; }
   .lfr-actions .lfr-trigger li img {
-    left: 3px;
+    right: 3px;
+    /*rtl*/
     position: absolute; }
   .lfr-actions .lfr-trigger li.last {
     border-bottom: none; }
@@ -347,7 +387,8 @@ body.portlet {
       padding: 1px; }
       .lfr-actions.portlet-options .lfr-trigger strong a {
         background-image: url(../../images/rtl/portlet/options.png);
-        background-position: 0 0;
+        background-position: right 0;
+        /*rtl*/
         display: block;
         font-size: 0;
         height: 16px;
@@ -381,7 +422,8 @@ body.portlet {
   background-color: #F0F5F7;
   border: 1px solid #FFF;
   border-bottom: none;
-  border-left: none;
+  border-right: none;
+  /*rtl*/
   display: block;
   height: 15px;
   padding: 5px 0; }
@@ -409,13 +451,17 @@ body.portlet {
   -ms-filter: alpha(opacity=100);
   filter: alpha(opacity=100); }
 .ie .taglib-calendar tr td.first a {
-  border-right: none; }
+  border-left: none;
+  /*rtl*/ }
 
 .ie6 .portlet-borderless-bar .portlet-actions, .ie7 .portlet-borderless-bar .portlet-actions {
-  margin-right: 0;
-  margin-left: 20px; }
+  margin-left: 0;
+  /*rtl*/
+  margin-right: 20px;
+  /*rtl*/ }
 .ie6 .portlet-title-default, .ie7 .portlet-title-default {
-  float: left; }
+  float: right;
+  /*rtl*/ }
 .ie6 .breadcrumbs-vertical, .ie6 .breadcrumbs-horizontal li, .ie7 .breadcrumbs-vertical, .ie7 .breadcrumbs-horizontal li {
   display: inline;
   zoom: 1; }

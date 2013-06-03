@@ -9,14 +9,16 @@
   margin-top: -7px;
   padding: 3px;
   position: absolute;
-  right: 1px;
+  left: 1px;
+  /*rtl*/
   text-indent: -9999em;
   top: 50%;
   width: 8px; }
 
 /*------ Navigation portlet ------*/
 .nav-menu ul {
-  padding-left: 10px; }
+  padding-right: 10px;
+  /*rtl*/ }
 .nav-menu li a.ancestor {
   font-weight: bold; }
 .nav-menu li a.selected {
@@ -32,16 +34,21 @@
   .aui-form-options input {
     border-width: 0;
     display: inline;
-    float: left; }
+    float: right;
+    /*rtl*/ }
 
 .aui-form-triggers {
-  float: left; }
+  float: right;
+  /*rtl*/ }
 
 .aui-form-trigger {
   background: #c4c4c4 url(../../images/rtl/application/button_bg.png) repeat-x right 0;
-  border-left: 1px solid #BBB;
+  /*rtl*/
+  border-right: 1px solid #BBB;
+  /*rtl*/
   display: inline-block;
-  float: left; }
+  float: right;
+  /*rtl*/ }
   .aui-form-trigger img {
     background: url() no-repeat 50% 40%;
     height: 25px;

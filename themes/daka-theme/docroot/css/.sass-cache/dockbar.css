@@ -217,7 +217,7 @@ html > .lfr-dockbar-pinned {
   border-width: 1px 0; }
 
 .my-sites-menu .current-site a {
-  background: #3068ba url(../images/arrows/01_left.png) no-repeat scroll 2px 30%;
+  background: #3068ba url(../images/arrows/01_right.png) no-repeat scroll 2px 30%;
   color: #FFF;
   padding-left: 20px;
   text-shadow: 1px 1px #333; }
