@@ -10,7 +10,7 @@
 	}
 
 	.category-subscription-types {
-		float: left;
+		float: left;   /*rtl*/
 	}
 
 	.code {
@@ -22,26 +22,26 @@
 	}
 
 	.code-lines {
-		border-left: 1px solid #ccc;
+		border-left: 1px solid #ccc;   /*rtl*/
 		color: #000;
-		margin-left: 5px;
-		padding:0px 5px 0px 5px;
+		margin-left: 5px;   /*rtl*/
+		padding: 0px 5px 0px 5px;   /*rtl*/
 	}
 
 	.quote {
-		background: #fff url(@theme_image_path@/rtl/message_boards/quoteleft.png) right top no-repeat;
+		background: #fff url(@theme_image_path@/rtl/message_boards/quoteleft.png) right top no-repeat;   /*rtl*/
 		border: 1px solid #777;
-		padding:5px 5px 0px 0px;
+		padding: 5px 5px 0px 0px;   /*rtl*/
 	}
 
 	.quote-content {
-		background: transparent url(@theme_image_path@/rtl/message_boards/quoteright.png) left bottom no-repeat;
-		padding:5px 30px 10px 30px;
+		background: transparent url(@theme_image_path@/rtl/message_boards/quoteright.png) left bottom no-repeat;   /*rtl*/
+		padding: 5px 30px 10px 30px;   /*rtl*/
 	}
 
 	.quote-title {
 		font-weight: bold;
-		padding:5px 0px 5px 0px;
+		padding: 5px 0px 5px 0px;   /*rtl*/
 	}
 
 	.title {
@@ -57,7 +57,7 @@
 
 	.message-container {
 		border: 1px solid #ccc;
-		margin:5px 0 0 0;
+		margin: 5px 0 0 0;   /*rtl*/
 
 		table {
 			border-collapse: collapse;
@@ -80,24 +80,24 @@
 	}
 
 	.taglib-ratings.thumbs .total-rating {
-		padding:0 10px 0 5px;
+		padding: 0 10px 0 5px;   /*rtl*/
 	}
 
 	td.user-info {
-		border-left: 1px solid #ccc;
+		border-left: 1px solid #ccc;   /*rtl*/
 		width: 150px;
 	}
 
 	.subject {
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.edit-controls {
-		float: left;
+		float: left;   /*rtl*/
 
 		li {
-			float: right;
-			margin-left: 10px;
+			float: right;   /*rtl*/
+			margin-left: 10px;   /*rtl*/
 		}
 	}
 
@@ -107,7 +107,7 @@
 	}
 
 	.message-container .user-info {
-		border-left: 1px solid #ccc;
+		border-left: 1px solid #ccc;   /*rtl*/
 		padding: 5px;
 	}
 
@@ -136,21 +136,21 @@
 		margin: 1em;
 
 		dt {
-			float: right;
+			float: right;   /*rtl*/
 			font-weight: bold;
-			margin-left: 1em;
+			margin-left: 1em;   /*rtl*/
 		}
 	}
 
 	.question-details {
-		float: right;
+		float: right;   /*rtl*/
 		white-space: nowrap;
 	}
 
 	.views {
 		color: #999;
 		clear: both;
-		float: right;
+		float: right;   /*rtl*/
 		padding: 5px 0;
 		text-align: center;
 		width: 100%;
@@ -164,7 +164,7 @@
 	.votes, .status {
 		display: inline-block;
 		height: 38px;
-		margin:0 0 0 3px;
+		margin: 0 0 0 3px;   /*rtl*/
 		padding: 5px;
 		text-align: center;
 	}
@@ -197,7 +197,7 @@
 
 	.toggle_id_message_boards_view_message_thread {
 		border: 1px solid #ccc;
-		margin:5px 0 0 0;
+		margin: 5px 0 0 0;   /*rtl*/
 		width: 100%;
 	}
 
@@ -208,11 +208,11 @@
 	}
 
 	.thread-navigation {
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.thread-actions {
-		float: left;
+		float: left;   /*rtl*/
 	}
 
 	.thread-user-rank {
@@ -221,7 +221,7 @@
 
 	.thread-priority {
 		border-width: 0;
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.thread-view, .message-container .thread-message-view {
@@ -232,7 +232,7 @@
 
 	.emoticons {
 		border: 1px solid #ccc;
-		margin-right: 10px;
+		margin-right: 10px;   /*rtl*/
 	}
 
 	.tree {
@@ -240,7 +240,7 @@
 	}
 
 	.message-scroll {
-		margin:5px 0 0 0;
+		margin: 5px 0 0 0;   /*rtl*/
 	}
 
 	.lfr-textarea.message-edit {
@@ -259,8 +259,8 @@
 	}
 
 	.taglib-flags {
-		float: right;
-		margin-right: 20px;
+		float: right;   /*rtl*/
+		margin-right: 20px;   /*rtl*/
 	}
 
 	.threads-panel {
@@ -279,7 +279,7 @@
 		}
 
 		.last-post {
-			margin-right: 1em;
+			margin-right: 1em;   /*rtl*/
 			width: 15%;
 		}
 
@@ -309,7 +309,7 @@
 		}
 
 		.tags {
-			float: right;
+			float: right;   /*rtl*/
 			margin-top: 0.5em;
 		}
 
@@ -328,8 +328,8 @@
 	}
 
 	.top-links .category-search {
-		float: left;
-		margin: 0 0 0.5em 0.5em;
+		float: left;   /*rtl*/
+		margin: 0 0.5em 0.5em 0;   /*rtl*/
 	}
 }
 

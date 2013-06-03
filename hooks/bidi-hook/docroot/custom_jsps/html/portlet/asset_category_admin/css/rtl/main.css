@@ -4,25 +4,25 @@
 		margin: 0;
 
 		.permissions-button {
-			margin-right: 1em;
+			margin-right: 1em;   /*rtl*/
 		}
 
 		.aui-button, .category-actions {
 			display: block;
-			float: right;
-			margin-right: 0;
-			margin-left: 0.3em;
+			float: right;   /*rtl*/
+			margin-right: 0;   /*rtl*/
+			margin-left: 0.3em;   /*rtl*/
 		}
 
 		.category-actions {
-			margin-right: 0.3em;
-			margin-left: 0;
+			margin-right: 0.3em;   /*rtl*/
+			margin-left: 0;   /*rtl*/
 		}
 	}
 
 	.categories-admin-container {
 		.categories-actions-toolbar {
-			margin-right: 1em;
+			margin-right: 1em;   /*rtl*/
 		}
 
 		.results-header {
@@ -54,16 +54,16 @@
 		background-image: url(@theme_image_path@/rtl/common/search.png);
 		background-repeat: no-repeat;
 		background-position: 5px 50%;
-		padding-right: 25px;
+		padding-right: 25px;   /*rtl*/
 		width: 210px;
 	}
 
 	.select-vocabularies, .select-categories {
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.select-categories {
-		margin-right: 8px;
+		margin-right: 8px;   /*rtl*/
 	}
 
 	.vocabulary-list-container-content, .vocabulary-categories-container-content, .vocabulary-edit-category-content {
@@ -87,16 +87,16 @@
 		margin-top: -8px;
 		padding: 0;
 		position: absolute;
-		left: 5px;
+		left: 5px;   /*rtl*/
 		top: 50%;
 		width: 16px;
 	}
 
 	.vocabulary-item-check {
-		margin-right: 10px;
+		margin-right: 10px;   /*rtl*/
 		position: static;
 		margin-top: 10px;
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.vocabulary-category {
@@ -120,7 +120,7 @@
 
 		a {
 			display: block;
-			padding:8px 10px 8px 20px;
+			padding: 8px 10px 8px 20px;   /*rtl*/
 			text-decoration: none;
 		}
 	}
@@ -169,8 +169,8 @@
 			cursor: pointer;
 			display: block;
 			font-weight: bold;
-			padding-right: 18px;
-			padding-left: 5px;
+			padding-right: 18px;   /*rtl*/
+			padding-left: 5px;   /*rtl*/
 
 			&:after {
 				clear: both;
@@ -204,32 +204,32 @@
 		}
 
 		.category-name {
-			float: right;
+			float: right;   /*rtl*/
 			width: 50%;
 
 			.category-item-check {
-				margin-left: 3px;
+				margin-left: 3px;   /*rtl*/
 				vertical-align: middle;
 			}
 		}
 
 		.category-path {
-			float: left;
+			float: left;   /*rtl*/
 			font-weight: normal;
 			font-size: 0.8em;
-			text-align: left;
+			text-align: left;   /*rtl*/
 			width: 49%;
 		}
 	}
 
 	.vocabulary-edit-category .category-view {
-		padding:0 0px 0 5px;
+		padding: 0 0px 0 5px;   /*rtl*/
 	}
 
 	.category-view-close {
 		position: absolute;
-		left: 2px;
-		text-align: left;
+		left: 2px;   /*rtl*/
+		text-align: left;   /*rtl*/
 		top: 4px;
 
 		span {
@@ -264,7 +264,7 @@
 			}
 
 			&.aui-tree-collapsed .aui-tree-hitarea {
-				background-position: right 50%   /*rtl*/
+				background-position: 0 50%;
 			}
 
 			.aui-tree-node-checkbox-container, .aui-tree-label {
@@ -298,7 +298,7 @@
 		}
 
 		.category-field {
-			clear: right;
+			clear: right;   /*rtl*/
 			margin: 1em auto;
 		}
 	}

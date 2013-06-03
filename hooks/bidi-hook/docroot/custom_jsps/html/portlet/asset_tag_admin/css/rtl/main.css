@@ -1,7 +1,7 @@
 .portlet-asset-tag-admin {
 	.tags-admin-actions {
 		clear: none;
-		float: right;
+		float: right;   /*rtl*/
 		margin: 0;
 	}
 
@@ -28,7 +28,7 @@
 			background-image: url(@theme_image_path@/rtl/common/search.png);
 			background-repeat: no-repeat;
 			background-position: 5px 50%;
-			padding-right: 25px;
+			padding-right: 25px;   /*rtl*/
 			width: 250px;
 		}
 	}
@@ -43,7 +43,7 @@
 
 	.tags-admin-edit-tag {
 		.tag-view-container {
-			padding: 0 0.5em 0 0.5em;
+			padding: 0 0.5em 0 0.5em;   /*rtl*/
 		}
 
 		.tag-details {
@@ -54,7 +54,7 @@
 
 	.tag-item a {
 		display: block;
-		padding:8px 25px 8px 20px;
+		padding: 8px 25px 8px 20px;   /*rtl*/
 		text-decoration: none;
 	}
 
@@ -72,15 +72,15 @@
 		height: 16px;
 		margin-top: -8px;
 		padding: 0;
-		left: 0;
+		left: 0;   /*rtl*/
 		width: 16px;
 	}
 
 	.tag-item-check {
-		margin-right: 10px;
+		margin-right: 10px;   /*rtl*/
 		position: static;
 		margin-top: 10px;
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.tags-admin-content {
@@ -134,9 +134,9 @@
 
 	.select-tags {
 		border-color: #5F5F5F;
-		float: right;
+		float: right;   /*rtl*/
 		line-height: 0;
-		margin-left: 2px;
+		margin-left: 2px;   /*rtl*/
 		padding: 0;
 
 		.aui-field-element {
@@ -160,7 +160,7 @@
 	}
 
 	.tags-admin-search-bar {
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.view-tag {
@@ -172,7 +172,7 @@
 		}
 
 		.tag-field {
-			clear: right;
+			clear: right;   /*rtl*/
 			margin: 1em auto;
 		}
 	}
@@ -183,7 +183,7 @@
 	display: block;
 	font-weight: bold;
 	list-style: none;
-	padding:8px 10px 8px 20px;
+	padding: 8px 10px 8px 20px;   /*rtl*/
 
 	a {
 		text-decoration: none;
@@ -268,11 +268,11 @@
 		}
 
 		.tag-options {
-			text-align: right;
+			text-align: right;   /*rtl*/
 		}
 
 		.tags-merge-label {
-			margin-right: 0.5em;
+			margin-right: 0.5em;   /*rtl*/
 			vertical-align: middle;
 		}
 	}

@@ -6,12 +6,12 @@
 
 	.choice {
 		label {
-			float: right;
-			margin: 0.5em 0.5em 0 0;
+			float: right;   /*rtl*/
+			margin: 0.5em 0 0 0.5em;   /*rtl*/
 		}
 
 		.aui-field {
-			float: right;
+			float: right;   /*rtl*/
 		}
 	}
 }

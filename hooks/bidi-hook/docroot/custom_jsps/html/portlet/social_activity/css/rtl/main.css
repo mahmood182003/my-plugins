@@ -15,7 +15,7 @@
 
 	.social-activity-item {
 		cursor: pointer;
-		padding:6px 3px 6px 0px;
+		padding: 6px 3px 6px 0px;   /*rtl*/
 		position: relative;
 
 		.social-activity-item-content {
@@ -43,7 +43,7 @@
 		border-color: transparent transparent transparent #83BFFA;
 		content: '';
 		display: block;
-		right: 100%;
+		right: 100%;   /*rtl*/
 		margin-top: -14px;
 		position: absolute;
 		top: 50%;
@@ -55,7 +55,7 @@
 	.aui-settings-display .aui-settings-display-content {
 		background-color: #FFF;
 		border: 1px solid #CCC;
-		margin:0px 0px 5px 15px;
+		margin: 0px 0px 5px 15px;   /*rtl*/
 		padding: 0px 15px;
 
 		.aui-settings-field {
@@ -93,7 +93,7 @@
 
 			.content-field {
 				border-bottom: 1px solid #ccc;
-				padding:8px 10px 8px 0;
+				padding: 8px 10px 8px 0;   /*rtl*/
 
 				.settings-controls {
 					display: block;
@@ -111,7 +111,7 @@
 		}
 
 		.settings-header {
-			padding:10px 0 5px 0;
+			padding: 10px 0 5px 0;   /*rtl*/
 
 			.actions-conjunction {
 				display: inline-block;
@@ -134,7 +134,7 @@
 				background-image: url(@theme_image_path@/rtl/common/add.png);
 				background-position: 5px 50%;
 				background-repeat: no-repeat;
-				padding-right: 25px;
+				padding-right: 25px;   /*rtl*/
 			}
 		}
 
@@ -149,19 +149,19 @@
 		.settings-field-buttons {
 			display: inline-block;
 			position: absolute;
-			left: 0;
+			left: 0;   /*rtl*/
 			top: 0;
 
 			.settings-button {
-				float: right;
+				float: right;   /*rtl*/
 			}
 
 			.settings-icon {
-				background: none no-repeat right 50%;
+				background: none no-repeat right 50%;   /*rtl*/
 				display: block;
 				height: 16px;
 				padding: 0;
-				left: 0;
+				left: 0;   /*rtl*/
 				width: 16px;
 			}
 
@@ -173,7 +173,7 @@
 				background-image: url(@theme_image_path@/rtl/arrows/05_right.png);
 				font-size: 0.9em;
 				font-weight: normal;
-				padding:0 12px 0 16px;
+				padding: 0 12px 0 16px;   /*rtl*/
 				width: auto;
 			}
 
@@ -183,7 +183,7 @@
 		}
 
 		.settings-limit {
-			margin-right: 12px;
+			margin-right: 12px;   /*rtl*/
 
 			.settings-limit-row {
 				margin: 5px 0;

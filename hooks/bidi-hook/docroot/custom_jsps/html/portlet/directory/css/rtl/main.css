@@ -3,7 +3,7 @@
 		overflow: hidden;
 
 		.avatar {
-			float: right;
+			float: right;   /*rtl*/
 			width: 100px;
 		}
 
@@ -12,7 +12,7 @@
 		}
 
 		dl {
-			margin-right: 115px;
+			margin-right: 115px;   /*rtl*/
 		}
 
 		dt, dd {
@@ -44,17 +44,17 @@
 		th {
 			background-color: #999;
 			color: white;
-			padding:1px 5px 1px 5px;
+			padding: 1px 5px 1px 5px;   /*rtl*/
 		}
 	}
 
 	.primary {
-		background: #EEE url(@theme_image_path@/rtl/dock/my_place_current.png) no-repeat 3px 50%;
+		background: #EEE url(@theme_image_path@/rtl/dock/my_place_current.png) no-repeat 99% 50%;   /*rtl*/
 		color: #020509;
 		font-weight: bold;
 		margin-bottom: 10px;
 		padding: 5px;
-		padding-right: 10px;
+		padding-right: 10px;   /*rtl*/
 	}
 
 	dl.property-list {
@@ -63,7 +63,7 @@
 		padding: 0;
 
 		dd {
-			padding-right: 5px;
+			padding-right: 5px;   /*rtl*/
 
 			img {
 				vertical-align: middle;
@@ -75,35 +75,35 @@
 		}
 
 		dt, dd {
-			float: right;
+			float: right;   /*rtl*/
 			line-height: 1.5;
 			margin: 0;
 		}
 
 		dt {
-			clear: right;
+			clear: right;   /*rtl*/
 			font-weight: bold;
 			min-width: 5em;
 		}
 	}
 
 	.section {
-		float: right;
-		margin-right: 10px;
+		float: right;   /*rtl*/
+		margin-right: 10px;   /*rtl*/
 		width: 47%;
 
 		h3 {
-			background: url() no-repeat 2px 50%;
+			background: url() no-repeat 99% 50%;   /*rtl*/
 			border-bottom: 1px solid #CCC;
 			line-height: 1.5;
 			margin-bottom: 0.5em;
-			padding-right: 25px;
+			padding-right: 25px;   /*rtl*/
 		}
 
 		li {
 			list-style: none;
 			margin: 0;
-			padding-right: 25px;
+			padding-right: 25px;   /*rtl*/
 		}
 
 		ul {

@@ -1,10 +1,10 @@
 .lfr-asset-column-details {
 	.lfr-asset-title .lfr-asset-actions img {
-		margin-right: 5px;
+		margin-right: 5px;   /*rtl*/
 	}
 
 	.lfr-asset-actions {
-		float: left;
+		float: left;   /*rtl*/
 		font-size: 11px;
 		font-weight: normal;
 		margin-bottom: 3px;
@@ -12,7 +12,7 @@
 	}
 
 	.task-activity {
-		padding:5px 25px 5px 5px;
+		padding: 5px 25px 5px 5px;   /*rtl*/
 	}
 
 	.task-activity-date {
@@ -20,14 +20,14 @@
 	}
 
 	.lfr-asset-assigned, .lfr-asset-due-date, .task-type-1, .task-type-2, .task-type-3, .lfr-asset-date, .lfr-asset-status {
-		background: url() no-repeat right 50%;
+		background: url() no-repeat right 50%;   /*rtl*/
 	}
 
 	.lfr-asset-assigned {
 		background-image: url(@theme_image_path@/rtl/common/assign.png);
-		margin-left: 10px;
-		padding-right: 25px;
-		padding-left: 10px;
+		margin-left: 10px;   /*rtl*/
+		padding-right: 25px;   /*rtl*/
+		padding-left: 10px;   /*rtl*/
 	}
 
 	h3.task-content-title {
@@ -40,16 +40,16 @@
 	}
 
 	.task-content-actions {
-		float: left;
+		float: left;   /*rtl*/
 	}
 
 	.lfr-asset-date {
-		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 50%;   /*rtl*/
 	}
 
 	.lfr-asset-due-date {
 		background-image: url(@theme_image_path@/rtl/common/time.png);
-		padding-right: 25px;
+		padding-right: 25px;   /*rtl*/
 	}
 
 	.task-type-1 {
@@ -65,16 +65,16 @@
 	}
 
 	.lfr-asset-date {
-		margin-left: 10px;
+		margin-left: 10px;   /*rtl*/
 		overflow: auto;
-		padding-right: 25px;
-		padding-left: 10px;
+		padding-right: 25px;   /*rtl*/
+		padding-left: 10px;   /*rtl*/
 	}
 
 	.lfr-asset-status {
 		background-image: url(@theme_image_path@/rtl/common/recent_changes.png);
-		padding-right: 25px;
-		padding-left: 10px;
+		padding-right: 25px;   /*rtl*/
+		padding-left: 10px;   /*rtl*/
 	}
 
 	.asset-metadata {
@@ -89,10 +89,10 @@
 	}
 
 	.metadata-author {
-		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 0;
+		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 0;   /*rtl*/
 		font-weight: bold;
-		margin-left: 10px;
-		padding-right: 25px;
+		margin-left: 10px;   /*rtl*/
+		padding-right: 25px;   /*rtl*/
 		padding-bottom: 5px;
 	}
 
@@ -103,24 +103,24 @@
 	}
 
 	.metadata-modified-date, .metadata-create-date, .metadata-publish-date, .metadata-expiration-date {
-		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 0;
+		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 0;   /*rtl*/
 		color: #999;
 		margin-bottom: 1em;
-		padding-right: 25px;
+		padding-right: 25px;   /*rtl*/
 	}
 
 	.metadata-priority {
-		background: url(@theme_image_path@/rtl/common/top.png) no-repeat right 20%;
-		margin-left: 10px;
-		padding-right: 25px;
+		background: url(@theme_image_path@/rtl/common/top.png) no-repeat right 20%;   /*rtl*/
+		margin-left: 10px;   /*rtl*/
+		padding-right: 25px;   /*rtl*/
 	}
 
 	.metadata-view-count {
-		margin-left: 10px;
+		margin-left: 10px;   /*rtl*/
 	}
 
 	.vertical-separator {
-		border-left: 1px solid #CCC;
+		border-left: 1px solid #CCC;   /*rtl*/
 		margin: 0 10px;
 		padding-top: 0.1em;
 	}

@@ -10,22 +10,22 @@
 		}
 
 		.asset-description {
-			clear: right;
+			clear: right;   /*rtl*/
 		}
 	}
 
 	.asset-back-to {
-		text-align: left;
+		text-align: left;   /*rtl*/
 	}
 
 	.asset-content {
-		clear: left;
+		clear: left;   /*rtl*/
 		margin-bottom: 10px;
-		margin-right: 25px;
-		margin-left: 10px;
+		margin-right: 25px;   /*rtl*/
+		margin-left: 10px;   /*rtl*/
 
 		.asset-description {
-			clear: right;
+			clear: right;   /*rtl*/
 			font-style: italic;
 		}
 	}
@@ -36,11 +36,11 @@
 
 	.asset-full-content {
 		.asset-content {
-			margin-left: 25px;
+			margin-left: 25px;   /*rtl*/
 		}
 
 		&.show-asset-title .asset-content {
-			margin-left: 10px;
+			margin-left: 10px;   /*rtl*/
 		}
 
 		&.no-title .asset-user-actions{
@@ -49,17 +49,17 @@
 	}
 
 	.asset-edit {
-		float: left;
-		margin-right: 1em;
+		float: left;   /*rtl*/
+		margin-right: 1em;   /*rtl*/
 	}
 
 	.asset-metadata {
 		clear: both;
-		margin-right: 25px;
+		margin-right: 25px;   /*rtl*/
 		overflow: hidden;
 
 		span {
-			float: right;
+			float: right;   /*rtl*/
 		}
 
 		.metadata-categories span {
@@ -68,7 +68,7 @@
 	}
 
 	.asset-more {
-		clear: right;
+		clear: right;   /*rtl*/
 	}
 
 	.asset-entries-group-label {
@@ -78,13 +78,13 @@
 	}
 
 	.asset-small-image {
-		float: left;
-		padding-right: 0.5em;
+		float: left;   /*rtl*/
+		padding-right: 0.5em;   /*rtl*/
 		width: 150px;
 	}
 
 	.asset-actions {
-		float: left;
+		float: left;   /*rtl*/
 		font-size: 11px;
 		font-weight: normal;
 		margin-bottom: 3px;
@@ -94,12 +94,12 @@
 	.asset-title {
 		border-bottom: 1px solid #DDD;
 		margin-bottom: 0.7em;
-		margin-left: 8px;
+		margin-left: 8px;   /*rtl*/
 		margin-top: 2em;
 		padding-bottom: 1px;
 
 		.asset-actions img {
-			margin-right: 5px;
+			margin-right: 5px;   /*rtl*/
 		}
 
 		a {
@@ -113,13 +113,13 @@
 
 	.asset-user-actions {
 		.export-actions, .print-action, .locale-actions {
-			float: left;
+			float: left;   /*rtl*/
 		}
 
 		.locale-separator {
-			border-left: 1px solid #CCC;
-			float: left;
-			margin-left: 1em;
+			border-left: 1px solid #CCC;   /*rtl*/
+			float: left;   /*rtl*/
+			margin-left: 1em;   /*rtl*/
 			padding: 0.8em 0.5em;
 		}
 
@@ -138,16 +138,16 @@
 	}
 
 	.lfr-meta-actions {
-		margin-left: 1em;
+		margin-left: 1em;   /*rtl*/
 		padding-top: 0;
 	}
 
 	.metadata-author {
-		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 0;
-		float: right;
+		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 0;   /*rtl*/
+		float: right;   /*rtl*/
 		font-weight: bold;
-		margin-left: 10px;
-		padding-right: 25px;
+		margin-left: 10px;   /*rtl*/
+		padding-right: 25px;   /*rtl*/
 	}
 
 	.metadata-entry {
@@ -155,39 +155,39 @@
 	}
 
 	.metadata-modified-date, .metadata-create-date, .metadata-publish-date, .metadata-expiration-date {
-		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 0;
+		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 0;   /*rtl*/
 		color: #999;
 		margin-bottom: 1em;
-		padding-right: 25px;
+		padding-right: 25px;   /*rtl*/
 	}
 
 	.metadata-priority {
-		background: url(@theme_image_path@/rtl/common/top.png) no-repeat right 20%;
-		margin-left: 10px;
-		padding-right: 25px;
+		background: url(@theme_image_path@/rtl/common/top.png) no-repeat right 20%;   /*rtl*/
+		margin-left: 10px;   /*rtl*/
+		padding-right: 25px;   /*rtl*/
 	}
 
 	.metadata-view-count {
-		margin-left: 10px;
+		margin-left: 10px;   /*rtl*/
 	}
 
 	.separator {
-		border-left: 1px solid #999;
+		border-left: 1px solid #999;   /*rtl*/
 		clear: both;
 		margin: 25px 25px;
 	}
 
 	.taglib-asset-categories-summary {
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.taglib-asset-tags-summary {
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.title-list {
 		.asset-actions {
-			right: 10px;
+			right: 10px;   /*rtl*/
 			position: relative;
 		}
 
@@ -196,7 +196,7 @@
 		}
 
 		a {
-			float: right;
+			float: right;   /*rtl*/
 		}
 	}
 
@@ -204,12 +204,12 @@
 		clear: both;
 		list-style: none;
 		margin-bottom: 0.15em;
-		margin-left: 8px;
+		margin-left: 8px;   /*rtl*/
 		padding-bottom: 1px;
 	}
 
 	ul.title-list {
-		margin-right: 0;
+		margin-right: 0;   /*rtl*/
 	}
 }
 
@@ -260,9 +260,9 @@
 
 	.dl-file-icon {
 		border-width: 0;
-		margin-left: 0.3em;
+		margin-left: 0.3em;   /*rtl*/
 		position: relative;
-		text-align: right;
+		text-align: right;   /*rtl*/
 		top: 0.4em;
 	}
 
@@ -275,11 +275,11 @@
 	}
 
 	.lfr-actions.select-existing-selector {
-		margin:0 1em 1em 0;
+		margin: 0 1em 1em 0;   /*rtl*/
 	}
 
 	.asset-subtype {
-		margin-right: 2em;
+		margin-right: 2em;   /*rtl*/
 	}
 }
 
@@ -292,5 +292,5 @@
 }
 
 .social-boomarks-options {
-	margin-right: 2em;
+	margin-right: 2em;   /*rtl*/
 }

@@ -35,11 +35,11 @@
 	}
 
 	.lfr-ddm-types-form-column .aui-column-content-first {
-		margin-left: 10px;
+		margin-left: 10px;   /*rtl*/
 	}
 
 	.lfr-ddm-search-form .aui-column {
-		margin-left: 10px;
+		margin-left: 10px;   /*rtl*/
 	}
 
 	.lfr-template-editor {

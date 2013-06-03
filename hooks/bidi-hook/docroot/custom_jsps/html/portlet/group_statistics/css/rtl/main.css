@@ -21,10 +21,10 @@
 
 	.group-statistics-info {
 		padding: 10px;
-		padding-left: 0;
+		padding-left: 0;   /*rtl*/
 
 		table {
-			margin-right: 10px;
+			margin-right: 10px;   /*rtl*/
 		}
 
 		td {
@@ -34,12 +34,12 @@
 
 	.group-statistics-color-marker {
 		height: 8px;
-		margin-left: 4px;
+		margin-left: 4px;   /*rtl*/
 		width: 8px;
 	}
 
 	.aui-field-row .inline-text {
-		margin:1px 0 0 3px;
+		margin: 1px 0 0 3px;   /*rtl*/
 		padding: 1px;
 	}
 }

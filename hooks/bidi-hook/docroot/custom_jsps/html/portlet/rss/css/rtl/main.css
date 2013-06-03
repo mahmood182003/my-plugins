@@ -1,12 +1,12 @@
 .portlet-rss {
 	.feed-date {
-		background: url(@theme_image_path@/rtl/common/time.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/common/time.png) no-repeat right 50%;   /*rtl*/
 		margin: 0.3em 0;
-		padding-right: 20px;
+		padding-right: 20px;   /*rtl*/
 	}
 
 	.feed-description {
-	 	margin:0 0 5px 0;
+	 	margin: 0 0 5px 0;   /*rtl*/
 	}
 
 	.feed-entries {
@@ -23,10 +23,10 @@
 	}
 
 	.feed-entry-content {
-		padding-right: 1.8em;
+		padding-right: 1.8em;   /*rtl*/
 
 		img {
-			margin-left: 0.5em;
+			margin-left: 0.5em;   /*rtl*/
 		}
 	}
 
@@ -37,8 +37,8 @@
 
 	.feed-entry-expander {
 		cursor: pointer;
-		float: right;
-		padding-left: 5px;
+		float: right;   /*rtl*/
+		padding-left: 5px;   /*rtl*/
 	}
 
 	.feed-entry-title {
@@ -47,13 +47,13 @@
 	}
 
 	.feed-image-left {
-	 	margin:4px 20px 4px 0;
-	 	text-align: right;
+	 	margin: 4px 20px 4px 0;   /*rtl*/
+	 	text-align: right;   /*rtl*/
 	}
 
 	.feed-image-right {
-		float: left;
-	 	margin:0 4px 4px 0;
+		float: left;   /*rtl*/
+	 	margin: 0 4px 4px 0;   /*rtl*/
 	}
 
 	.feed-published-date {
@@ -73,16 +73,16 @@
 		margin: 0 0 0.5em -20px;
 
 		a {
-			background: url(@theme_image_path@/rtl/common/news.png) no-repeat right 50%;
-			padding-right: 20px;
+			background: url(@theme_image_path@/rtl/common/news.png) no-repeat right 50%;   /*rtl*/
+			padding-right: 20px;   /*rtl*/
 		}
 	}
 
 	.feed {
-		padding-right: 20px;
+		padding-right: 20px;   /*rtl*/
 
 		.separator {
-			margin-right: -20px;
+			margin-right: -20px;   /*rtl*/
 		}
 	}
 

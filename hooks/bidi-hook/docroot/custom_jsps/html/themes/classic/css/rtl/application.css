@@ -281,7 +281,7 @@
 	line-height: 2.5em;
 
 	.tag-asset-count {
-		clip: rect(0 0 0 0);
+		clip: rect(0 0 0 0);   /*rtl*/
 		position: absolute;
 	}
 }
@@ -296,7 +296,7 @@
 	line-height: 2.5em;
 
 	.tag-asset-count {
-		clip: rect(0 0 0 0);
+		clip: rect(0 0 0 0);   /*rtl*/
 		position: absolute;
 	}
 

@@ -5,8 +5,8 @@
 	}
 
 	li {
-		float: right;
-		margin: 0 1.3em 1.3em 0;
+		float: right;   /*rtl*/
+		margin: 0 0 1.3em 1.3em;   /*rtl*/
 		text-align: center;
 	}
 }
@@ -42,16 +42,16 @@
 	}
 
 	.theme-details {
-		padding:0 170px 0 2px;
+		padding: 0 170px 0 2px;   /*rtl*/
 	}
 
 	.theme-fields {
-		margin-right: 0.5em;
+		margin-right: 0.5em;   /*rtl*/
 	}
 
 	.theme-screenshot {
 		border: 1px solid #CCC;
-		float: right;
+		float: right;   /*rtl*/
 		height: 120px;
 		margin: 0 0.5em;
 		width: 150px;
@@ -60,7 +60,7 @@
 
 .theme-entry {
 	cursor: pointer;
-	float: right;
+	float: right;   /*rtl*/
 	height: 96px;
 	margin: 2px;
 	padding: 0.3em;
@@ -95,11 +95,11 @@
 	}
 
 	.header-title {
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.install-themes {
-		float: left;
+		float: left;   /*rtl*/
 		font-size: 11px;
 	}
 }
@@ -140,11 +140,11 @@
 		padding: 10px;
 
 		.rule-group-instance-handle {
-			float: right;
+			float: right;   /*rtl*/
 		}
 
 		.rule-group-instance-priority {
-			float: left;
+			float: left;   /*rtl*/
 		}
 	}
 

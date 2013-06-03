@@ -1,6 +1,6 @@
 .portlet-site-settings {
 	.staging-section {
-		margin-right: 1.5em;
+		margin-right: 1.5em;   /*rtl*/
 	}
 
 	.staging-types .aui-field-choice label {

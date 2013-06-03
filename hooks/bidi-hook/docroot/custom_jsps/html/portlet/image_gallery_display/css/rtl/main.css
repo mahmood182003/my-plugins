@@ -1,6 +1,6 @@
 .lfr-image-gallery-actions {
 	font-size: 11px;
-	text-align: left;
+	text-align: left;   /*rtl*/
 }
 
 .portlet-image-gallery-display {
@@ -9,19 +9,19 @@
 	}
 
 	.folder-search {
-		float: left;
-		margin: 0 0 0.5em 0.5em;
+		float: left;   /*rtl*/
+		margin: 0 0.5em 0.5em 0;   /*rtl*/
 	}
 
 	.image-score {
 		display: block;
-		margin:0 35px 5px 0;
+		margin: 0 35px 5px 0;   /*rtl*/
 		padding-top: 3px;
 	}
 
 	.image-thumbnail {
 		border: 2px solid #eee;
-		float: right;
+		float: right;   /*rtl*/
 		height: 162px;
 		margin: 20px 4px 0;
 		padding: 5px 5px 0;

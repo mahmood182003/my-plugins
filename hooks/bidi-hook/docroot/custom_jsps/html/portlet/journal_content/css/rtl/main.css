@@ -1,7 +1,7 @@
 .portlet-journal-content {
 	.icon-actions {
-		float: right;
-		margin:1px 1px 1px 10px;
+		float: right;   /*rtl*/
+		margin: 1px 1px 1px 10px;   /*rtl*/
 	}
 
 	.icons-container {
@@ -13,7 +13,7 @@
 	}
 
 	.journal-content-article {
-		clear: left;
+		clear: left;   /*rtl*/
 
 		&:after {
 			clear: both;
@@ -39,17 +39,17 @@
 		padding-bottom: 2.5em;
 
 		.export-actions, .print-action, .locale-actions {
-			float: left;
+			float: left;   /*rtl*/
 		}
 
 		.print-action {
-			margin-right: 1em;
+			margin-right: 1em;   /*rtl*/
 		}
 
 		.locale-separator {
-			border-left: 1px solid #CCC;
-			float: left;
-			margin-left: 1em;
+			border-left: 1px solid #CCC;   /*rtl*/
+			float: left;   /*rtl*/
+			margin-left: 1em;   /*rtl*/
 			padding: 0.8em 0.5em;
 		}
 	}

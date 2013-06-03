@@ -13,7 +13,7 @@
 
 			.page-links {
 				float: none;
-				text-align: right;
+				text-align: right;   /*rtl*/
 
 				.previous {
 					border-width: 0;

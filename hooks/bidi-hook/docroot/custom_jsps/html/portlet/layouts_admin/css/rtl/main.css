@@ -6,8 +6,8 @@
 		}
 
 		li {
-			float: right;
-			margin: 0 1.3em 1.3em 0;
+			float: right;   /*rtl*/
+			margin: 0 0 1.3em 1.3em;   /*rtl*/
 			text-align: center;
 		}
 	}
@@ -47,16 +47,16 @@
 		}
 
 		.theme-details {
-			padding:0 170px 0 2px;
+			padding: 0 170px 0 2px;   /*rtl*/
 		}
 
 		.theme-fields {
-			margin-right: 0.5em;
+			margin-right: 0.5em;   /*rtl*/
 		}
 
 		.theme-screenshot {
 			border: 1px solid #CCC;
-			float: right;
+			float: right;   /*rtl*/
 			height: 120px;
 			margin: 0 0.5em;
 			width: 150px;
@@ -94,7 +94,7 @@
 			}
 
 			.aui-field-element {
-				float: right;
+				float: right;   /*rtl*/
 			}
 
 			.layout-template-entry {
@@ -104,21 +104,21 @@
 		}
 
 		.lfr-layout-template-column:before {
-			border-left-width: 0;
+			border-left-width: 0;   /*rtl*/
 		}
 
 		.lfr-layout-template-column-content {
-			padding:0 0 0 2em;
+			padding: 0 0 0 2em;   /*rtl*/
 		}
 
 		.lfr-page-layouts-content {
-			padding-right: 1em;
+			padding-right: 1em;   /*rtl*/
 		}
 	}
 
 	.theme-entry {
 		cursor: pointer;
-		float: right;
+		float: right;   /*rtl*/
 		height: 96px;
 		margin: 2px;
 		padding: 0.3em;
@@ -157,11 +157,11 @@
 		}
 
 		.header-title {
-			float: right;
+			float: right;   /*rtl*/
 		}
 
 		.install-themes {
-			float: left;
+			float: left;   /*rtl*/
 			font-size: 11px;
 		}
 	}
@@ -194,14 +194,14 @@
 	}
 
 	table.lfr-top .taglib-header .header-title {
-		margin: 0 0 0.5em 0;
+		margin: 0 0 0.5em 0;   /*rtl*/
 	}
 
 	.lfr-header-row {
 		margin-bottom: 0.5em;
 
 		.aui-icon-add, .aui-icon-copy, .aui-icon-delete, .aui-icon-export, .aui-icon-permissions, .aui-icon-search {
-			background: url() no-repeat right 0;
+			background: url() no-repeat right 0;   /*rtl*/
 		}
 
 		.aui-icon-add {
@@ -258,19 +258,19 @@
 			background-color: #FFF;
 			border: 1px solid #DEDEDE;
 			border-color: #C0C2C5;
-			margin:0 0 1em 0;
+			margin: 0 0 1em 0;   /*rtl*/
 		}
 
 		li {
 			background-image: none;
-			margin-left: 0;
-			padding-right: 0.75em;
-			padding-left: 0;
+			margin-left: 0;   /*rtl*/
+			padding-right: 0.75em;   /*rtl*/
+			padding-left: 0;   /*rtl*/
 
 			span {
-				background: url(@theme_image_path@/rtl/common/breadcrumbs.png) no-repeat left 50%;
+				background: url(@theme_image_path@/rtl/common/breadcrumbs.png) no-repeat 0 50%;   /*rtl*/
 				display: block;
-				padding: 0.5em 0 0.5em 15px;
+				padding: 0.5em 0 0.5em 15px;   /*rtl*/
 
 				a {
 					text-decoration: none;
@@ -292,7 +292,7 @@
 		.last {
 			font-size: 1em;
 			margin-top: 0;
-			padding-left: 0;
+			padding-left: 0;   /*rtl*/
 
 			span {
 				background-image: none;
@@ -447,7 +447,7 @@
 	width: 165px;
 
 	div, a {
-		float: right;
+		float: right;   /*rtl*/
 	}
 }
 
@@ -458,7 +458,7 @@
 }
 
 .lfr-tree-controls-item {
-	padding:0 6px 6px 0;
+	padding: 0 6px 6px 0;   /*rtl*/
 }
 
 .lfr-tree-controls-expand {

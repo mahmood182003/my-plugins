@@ -16,7 +16,7 @@
 	.note-color {
 		border: 1px solid;
 		cursor: pointer;
-		float: left;
+		float: left;   /*rtl*/
 		font-size: 0;
 		height: 10px;
 		margin: 3px 5px;
@@ -25,7 +25,7 @@
 		&.yellow {
 			background-color: #FFC;
 			border-color: #FC0;
-			margin-right: 0;
+			margin-right: 0;   /*rtl*/
 		}
 
 		&.green {
@@ -45,7 +45,7 @@
 	}
 
 	a.close-note {
-		float: left;
+		float: left;   /*rtl*/
 	}
 }
 

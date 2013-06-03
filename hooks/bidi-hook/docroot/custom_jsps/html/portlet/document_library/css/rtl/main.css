@@ -1,7 +1,7 @@
 .portlet-document-library, .portlet-document-library-display {
 	.file-entry-list-description {
 		font-style: italic;
-		margin-right: 10px;
+		margin-right: 10px;   /*rtl*/
 	}
 
 	.file-entry-tags {
@@ -10,7 +10,7 @@
 
 	.edit-file-entry-type {
 		h3 {
-			margin: 1em 0 0.3em 0;
+			margin: 1em 0 0.3em 0;   /*rtl*/
 		}
 
 		.select-metadata-set {
@@ -43,13 +43,13 @@
 
 		.change-search-folder {
 			position: absolute;
-			left: 60px;
+			left: 60px;   /*rtl*/
 			top: 7px;
 		}
 
 		.close-search {
 			position: absolute;
-			left: 20px;
+			left: 20px;   /*rtl*/
 			top: 10px;
 		}
 	}
@@ -60,13 +60,13 @@
 
 	.move-list {
 		.move-file, .move-folder {
-			background: #F0FAF0 url() no-repeat 5px 50%;
+			background: #F0FAF0 url() no-repeat 97% 50%;   /*rtl*/
 			border-bottom: 1px solid #CCC;
 			display: block;
 			font-weight: bold;
 			margin-bottom: 1px;
 			padding: 5px;
-			padding-right: 25px;
+			padding-right: 25px;   /*rtl*/
 			position: relative;
 		}
 
@@ -86,7 +86,7 @@
 
 			.error-message {
 				position: absolute;
-				left: 5px;
+				left: 5px;   /*rtl*/
 			}
 		}
 
@@ -113,9 +113,9 @@
 
 	.select-documents {
 		border-color: #5F5F5F;
-		float: right;
+		float: right;   /*rtl*/
 		line-height: 0;
-		margin-left: 2px;
+		margin-left: 2px;   /*rtl*/
 		padding: 0;
 
 		.aui-field-element {
@@ -147,18 +147,18 @@
 	}
 
 	.expand-folder {
-		float: left;
+		float: left;   /*rtl*/
 	}
 
 	.folder-search {
-		float: left;
-		margin: 0 0 0.5em 0.5em;
+		float: left;   /*rtl*/
+		margin: 0 0.5em 0.5em 0;   /*rtl*/
 	}
 
 	img.locked-icon, img.shortcut-icon {
 		bottom: 12px;
 		position: absolute;
-		left: 0;
+		left: 0;   /*rtl*/
 		z-index: 10;
 	}
 
@@ -171,7 +171,7 @@
 			border-bottom-color: #F0F0F0;
 			content: '';
 			position: absolute;
-			left: 5px;
+			left: 5px;   /*rtl*/
 			top: -10px;
 		}
 	}
@@ -186,7 +186,7 @@
 		}
 
 		&.show-arrow.direction-down .lfr-trigger strong a {
-			background: url(@theme_image_path@/rtl/arrows/08_down.png) left -5px no-repeat;
+			background: url(@theme_image_path@/rtl/arrows/08_down.png) 0 -5px no-repeat;   /*rtl*/
 		}
 	}
 
@@ -224,9 +224,9 @@
 			display: block;
 			margin: 5px;
 			padding: 5px 0;
-			padding-right: 20px;
+			padding-right: 20px;   /*rtl*/
 			position: relative;
-			text-align: right;
+			text-align: right;   /*rtl*/
 
 			&:after {
 				clear: both;
@@ -254,27 +254,27 @@
 				height: 20px;
 				overflow: hidden;
 				position: absolute;
-				left: 6px;
+				left: 6px;   /*rtl*/
 				top: 10px;
 				width: 22px;
 			}
 
 			.document-selector {
-				right: 5px;
+				right: 5px;   /*rtl*/
 				position: absolute;
 				top: 10px;
 			}
 
 			.document-thumbnail {
-				float: right;
-				margin:5px 5px 5px 10px;
+				float: right;   /*rtl*/
+				margin: 5px 5px 5px 10px;   /*rtl*/
 				position: relative;
 				text-align: center;
 			}
 
 			.document-link {
 				display: block;
-				text-align: right;
+				text-align: right;   /*rtl*/
 				text-decoration: none;
 			}
 
@@ -290,7 +290,7 @@
 
 		&.display-icon {
 			display: inline-block;
-			float: right;
+			float: right;   /*rtl*/
 			margin: 5px;
 			padding: 10px 0;
 			position: relative;
@@ -301,12 +301,12 @@
 			.document-action {
 				overflow: hidden;
 				position: absolute;
-				left: 5px;
+				left: 5px;   /*rtl*/
 				width: 22px;
 			}
 
 			.document-selector {
-				right: 10px;
+				right: 10px;   /*rtl*/
 				position: absolute;
 				top: 10px;
 			}
@@ -346,7 +346,7 @@
 
 		.overlay.document-action a {
 			display: block;
-			float: left;
+			float: left;   /*rtl*/
 			min-height: 15px;
 		}
 
@@ -365,13 +365,13 @@
 			height: 16px;
 			overflow: hidden;
 			position: absolute;
-			left: 15px;
+			left: 15px;   /*rtl*/
 			top: 5px;
 			width: 25px;
 
 			a {
 				display: block;
-				float: left;
+				float: left;   /*rtl*/
 				min-height: 15px;
 			}
 		}
@@ -411,8 +411,8 @@
 		width: 100%;
 
 		ul li a .icon {
-			float: right;
-			margin-left: 5px;
+			float: right;   /*rtl*/
+			margin-left: 5px;   /*rtl*/
 		}
 	}
 
@@ -423,7 +423,7 @@
 		}
 
 		.aui-icon-display-list {
-			background-position: right 100%   /*rtl*/
+			background-position: 0 100%;
 		}
 
 		.aui-icon-display-icon {
@@ -445,7 +445,7 @@
 		}
 
 		.lfr-asset-summary {
-			margin-right: 5px;
+			margin-right: 5px;   /*rtl*/
 
 			.download-document, .conversions, .lfr-asset-author, .webdav-url {
 				display: block;
@@ -468,7 +468,7 @@
 		}
 
 		.aui-icon-delete, .aui-icon-download, .aui-icon-edit, .aui-icon-lock, .aui-icon-move, .aui-icon-permissions, .aui-icon-undo, .aui-icon-unlock {
-			background: url() no-repeat right 0;
+			background: url() no-repeat right 0;   /*rtl*/
 		}
 
 		.aui-icon-delete {
@@ -508,11 +508,11 @@
 		position: relative;
 
 		.toolbar, .add-button {
-			float: right;
+			float: right;   /*rtl*/
 		}
 
 		.display-style {
-			float: left;
+			float: left;   /*rtl*/
 		}
 
 		.edit-toolbar {
@@ -522,7 +522,7 @@
 		.parent-folder-title {
 			color: #FFF;
 			font-weight: bold;
-			padding:6px 25px 6px 10px;
+			padding: 6px 25px 6px 10px;   /*rtl*/
 			text-shadow: -1px -1px #505050;
 		}
 	}
@@ -546,13 +546,13 @@
 		overflow: hidden;
 
 		.context-pane-content {
-			border-right: 1px solid #7B7B7B;
+			border-right: 1px solid #7B7B7B;   /*rtl*/
 			position: relative;
 		}
 	}
 
 	.taglib-search-iterator-page-iterator-top, .taglib-search-iterator-page-iterator-bottom, .aui-paginator-container, .document-library-breadcrumb {
-		background: #D9D9D9 url(@theme_image_path@/rtl/application/subheader_bg.png) right 0 repeat-x;
+		background: #D9D9D9 url(@theme_image_path@/rtl/application/subheader_bg.png) 0 right repeat-x;   /*rtl*/
 		clear: both;
 		padding: 5px;
 		position: relative;
@@ -564,9 +564,9 @@
 
 	.taglib-search-iterator-page-iterator-top.page-iterator-bottom, .lfr-app-column-view .taglib-search-iterator-page-iterator-bottom {
 		bottom: 0;
-		right: 0;
+		right: 0;   /*rtl*/
 		position: absolute;
-		left: 0;
+		left: 0;   /*rtl*/
 	}
 
 	.taglib-search-iterator {
@@ -603,22 +603,22 @@
 	}
 
 	.show-sync-message {
-		float: left;
+		float: left;   /*rtl*/
 	}
 
 	.lfr-list-view-content {
 		ul .expand-folder {
 			height: 10px;
 			overflow: hidden;
-			padding-right: 5px;
-			padding-left: 5px;
+			padding-right: 5px;   /*rtl*/
+			padding-left: 5px;   /*rtl*/
 			position: absolute;
-			left: 0;
+			left: 0;   /*rtl*/
 			top: 5px;
 			width: 10px;
 
 			.expand-folder-arrow {
-				right: 2px;
+				right: 2px;   /*rtl*/
 				position: absolute;
 				top: 1px;
 			}
@@ -678,8 +678,8 @@
 		}
 
 		.document-thumbnail {
-			float: right;
-			margin:0 0 0 10px;
+			float: right;   /*rtl*/
+			margin: 0 0 0 10px;   /*rtl*/
 		}
 
 		.clear {
@@ -704,11 +704,11 @@
 			}
 
 			.lfr-asset-icon {
-				background-position: right 2px   /*rtl*/
+				background-position: 0 2px;
 				background-repeat: no-repeat;
-				border-left-width: 0;
+				border-left-width: 0;   /*rtl*/
 				float: none;
-				padding:2px 20px 2px 0;
+				padding: 2px 20px 2px 0;   /*rtl*/
 			}
 
 			.lfr-asset-author {
@@ -733,7 +733,7 @@
 	.lfr-document-library-comments.lfr-panel.lfr-extended {
 		background: #FFF;
 		border-width: 0;
-		border-left: 1px solid #CCC;
+		border-left: 1px solid #CCC;   /*rtl*/
 		margin-bottom: 0;
 
 		.lfr-panel-titlebar {
@@ -742,8 +742,8 @@
 	}
 
 	.version.document-locked {
-		background: url(@theme_image_path@/rtl/common/lock.png) no-repeat right 50%;
-		padding-right: 20px;
+		background: url(@theme_image_path@/rtl/common/lock.png) no-repeat right 50%;   /*rtl*/
+		padding-right: 20px;   /*rtl*/
 	}
 
 	.common-file-metadata-container {
@@ -775,12 +775,12 @@
 		}
 
 		.document-type-fields {
-			clear: right;
+			clear: right;   /*rtl*/
 			padding-top: 0.5em;
 		}
 
 		.categorization-panel {
-			clear: right;
+			clear: right;   /*rtl*/
 		}
 	}
 
@@ -794,10 +794,10 @@
 
 		.liferay-rating-vote {
 			display: none;
-			right: -1px;
+			right: -1px;   /*rtl*/
 			padding: 4px;
 			position: absolute;
-			left: -1px;
+			left: -1px;   /*rtl*/
 			top: -1px;
 		}
 
@@ -817,11 +817,11 @@
 		.aui-rating-label-element {
 			color: #555;
 			font-size: 0.9em;
-			margin-right: 0.5em;
+			margin-right: 0.5em;   /*rtl*/
 		}
 
 		.liferay-rating-score {
-			padding-right: 0;
+			padding-right: 0;   /*rtl*/
 		}
 	}
 }
@@ -844,7 +844,7 @@
 .active-area-proxy {
 	background: #FFFFE0 url(@theme_image_path@/rtl/portlet/pop_up.png) no-repeat 10px 50%;
 	font-size: 1.2em;
-	padding: 0.3em 0.3em 0.3em 2em;
+	padding: 0.3em 2em 0.3em 0.3em;   /*rtl*/
 }
 
 .ie6, .ie7 {

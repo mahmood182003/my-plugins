@@ -30,7 +30,7 @@
 					clear: both;
 
 					span {
-						margin-left: 0.5em;
+						margin-left: 0.5em;   /*rtl*/
 					}
 				}
 
@@ -57,7 +57,7 @@
 		line-height: 34px;
 		margin: 0 0 10px;
 		padding: 0 10px;
-		text-align: left;
+		text-align: left;   /*rtl*/
 	}
 
 	#header-title {
@@ -100,27 +100,27 @@
 	}
 
 	.organization-search {
-		float: left;
-		margin: 0 0 0.5em 0.5em;
+		float: left;   /*rtl*/
+		margin: 0 0.5em 0.5em 0;   /*rtl*/
 	}
 
 	.section {
-		float: right;
-		margin-right: 10px;
+		float: right;   /*rtl*/
+		margin-right: 10px;   /*rtl*/
 		width: 47%;
 
 		h3 {
-			background: url() no-repeat scroll 2px 50%;
+			background: url() no-repeat scroll 99% 50%;   /*rtl*/
 			border-bottom: 1px solid #CCC;
 			line-height: 1.5;
 			margin-bottom: 0.5em;
-			padding-right: 25px;
+			padding-right: 25px;   /*rtl*/
 		}
 
 		li {
 			list-style: none;
 			margin: 0;
-			padding-right: 25px;
+			padding-right: 25px;   /*rtl*/
 		}
 
 		ul {
@@ -181,8 +181,8 @@
 
 		.user-info, .organization-info {
 			.user-logo, .organization-logo {
-				float: right;
-				margin-left: 10px;
+				float: right;   /*rtl*/
+				margin-left: 10px;   /*rtl*/
 				padding: 0;
 				width: 35px;
 			}
@@ -194,12 +194,12 @@
 		overflow: hidden;
 
 		img {
-			margin-right: 1em;
+			margin-right: 1em;   /*rtl*/
 			margin-top: 1.8em;
 		}
 
 		.aui-field {
-			float: right;
+			float: right;   /*rtl*/
 		}
 	}
 
@@ -221,13 +221,13 @@
 	}
 
 	.permission-group {
-		margin:10px 10px 0 0;
+		margin: 10px 10px 0 0;   /*rtl*/
 	}
 
 	.view-all-link {
 		color: #666;
 		font-weight: normal;
-		margin-right: 0.5em;
+		margin-right: 0.5em;   /*rtl*/
 	}
 
 	.lfr-asset-column-details {

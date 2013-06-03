@@ -1,5 +1,5 @@
 .journal-article-component-list {
-	margin:10px 0 0 0;
+	margin: 10px 0 0 0;   /*rtl*/
 }
 
 .portlet-journal {
@@ -13,7 +13,7 @@
 	}
 
 	.add-permission-button-row {
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.article-separator {
@@ -77,7 +77,7 @@
 
 		.article-structure-toolbar, .article-template-toolbar {
 			display: inline;
-			margin-right: 0.5em;
+			margin-right: 0.5em;   /*rtl*/
 			margin-bottom: 0;
 		}
 
@@ -101,7 +101,7 @@
 		.add-translations-menu {
 			display: inline;
 			float: none;
-			margin-right: 2em;
+			margin-right: 2em;   /*rtl*/
 			padding: 0.4em 0;
 
 			li {
@@ -124,7 +124,7 @@
 	}
 
 	.subscribe-link {
-		float: left;
+		float: left;   /*rtl*/
 		margin-bottom: 1em;
 		margin-top: 2em;
 	}
@@ -138,7 +138,7 @@
 
 			span {
 				background: #fff;
-				padding:0 4px 0 8px;
+				padding: 0 4px 0 8px;   /*rtl*/
 				position: relative;
 				top: 0.55em;
 			}
@@ -205,19 +205,19 @@
 		.journal-article-field-label {
 			display: block;
 			font-weight: bold;
-			margin-right: 3px;
+			margin-right: 3px;   /*rtl*/
 			margin-top: 25px;
 			padding-bottom: 5px;
 		}
 
 		.journal-subfield input {
-			float: right;
+			float: right;   /*rtl*/
 		}
 
 		.journal-subfield .journal-article-field-label {
-			float: right;
+			float: right;   /*rtl*/
 			font-weight: normal;
-			padding:0 3px 0 0;
+			padding: 0 3px 0 0;   /*rtl*/
 		}
 
 		.journal-article-move-handler {
@@ -231,8 +231,8 @@
 
 		.structure-field .structure-field {
 			border: 1px solid #D0D0D0;
-			border-right-width: 10px;
-			margin:7px 5px 0 0;
+			border-right-width: 10px;   /*rtl*/
+			margin: 7px 5px 0 0;   /*rtl*/
 			padding: 7px 10px 10px;
 		}
 	}
@@ -251,11 +251,11 @@
 	}
 
 	.journal-article-variable-name {
-		float: left;
+		float: left;   /*rtl*/
 
 		.aui-field-label {
 			font-weight: normal;
-			margin-left: 5px;
+			margin-left: 5px;   /*rtl*/
 		}
 	}
 
@@ -275,7 +275,7 @@
 		color: #0E3F6F;
 		cursor: move;
 		line-height: 25px;
-		padding-right: 30px;
+		padding-right: 30px;   /*rtl*/
 
 		&.dragging {
 			font-weight: bold;
@@ -316,7 +316,7 @@
 	}
 
 	.journal-article-instructions-message {
-		margin:5px 0 0 0;
+		margin: 5px 0 0 0;   /*rtl*/
 	}
 
 	.portlet-msg-info {
@@ -328,11 +328,11 @@
 	}
 
 	.structure-links {
-		margin-left: 0.5em;
+		margin-left: 0.5em;   /*rtl*/
 	}
 
 	.taglib-workflow-status {
-		margin:0 0 1em 0;
+		margin: 0 0 1em 0;   /*rtl*/
 	}
 
 	.default-link {
@@ -351,7 +351,7 @@
 	.repeatable-field-image {
 		cursor: pointer;
 		position: absolute;
-		left: 10px;
+		left: 10px;   /*rtl*/
 		top: 10px;
 	}
 
@@ -402,8 +402,8 @@
 			}
 
 			.article-image {
-				float: right;
-				margin-left: 10px;
+				float: right;   /*rtl*/
+				margin-left: 10px;   /*rtl*/
 				padding: 0;
 				width: 35px;
 			}
@@ -418,7 +418,7 @@
 			background-color: #DEE7F8;
 			border-radius: 14px;
 			border: 1px solid #CAD8F3;
-			padding:5px 11px 5px 28px;
+			padding: 5px 11px 5px 28px;   /*rtl*/
 			position: relative;
 
 			.display-page-item-remove {
@@ -428,7 +428,7 @@
 				height: 16px;
 				overflow: hidden;
 				position: absolute;
-				left: 8px;
+				left: 8px;   /*rtl*/
 				top: 3px;
 				width: 16px;
 
@@ -450,11 +450,11 @@
 			background: url(@theme_image_path@/rtl/journal/form_builder_bg.png);
 			border: 1px solid #C6D9F0;
 			margin: 15px;
-			padding:10px 22px 10px 10px;
+			padding: 10px 22px 10px 10px;   /*rtl*/
 
 			&.structure-field {
 				.structure-field {
-					border-right: 10px solid #C6D9F0;
+					border-right: 10px solid #C6D9F0;   /*rtl*/
 				}
 
 				&.repeated-field {
@@ -471,11 +471,11 @@
 				}
 
 				&.yui3-dd-draggable .journal-article-move-handler {
-					background: transparent url(@theme_image_path@/rtl/application/handle_sort_vertical.png) no-repeat scroll left 50%;
+					background: transparent url(@theme_image_path@/rtl/application/handle_sort_vertical.png) no-repeat scroll left 50%;   /*rtl*/
 					cursor: move;
 					display: block;
 					height: 20px;
-					right: 7px;
+					right: 7px;   /*rtl*/
 					position: absolute;
 					top: 8px;
 					width: 16px;
@@ -488,7 +488,7 @@
 					display: block;
 					height: 29px;
 					position: absolute;
-					left: -10px;
+					left: -10px;   /*rtl*/
 					top: -9px;
 					width: 29px;
 					z-index: 420;
@@ -544,11 +544,11 @@
 	.journal-article-buttons {
 		display: block;
 		margin-top: 18px;
-		text-align: left;
+		text-align: left;   /*rtl*/
 
 		.edit-button, .repeatable-button {
-			float: right;
-			margin-right: 3px;
+			float: right;   /*rtl*/
+			margin-right: 3px;   /*rtl*/
 		}
 
 		&:after {
@@ -607,7 +607,7 @@
 		-ms-filter: alpha(opacity=80);
 
 		&.not-intersecting .forbidden-action {
-			left: 2px;
+			left: 2px;   /*rtl*/
 			top: 2px;
 		}
 	}
@@ -626,7 +626,7 @@
 }
 
 .journal-component {
-	background: transparent url() no-repeat scroll 3px 3px;
+	background: transparent url() no-repeat scroll 99% 3px;   /*rtl*/
 }
 
 .journal-component-text {
@@ -715,7 +715,7 @@
 		background: url(@theme_image_path@/rtl/application/forbidden_action.png) no-repeat;
 		height: 32px;
 		position: absolute;
-		left: -15px;
+		left: -15px;   /*rtl*/
 		top: -15px;
 		width: 32px;
 	}
@@ -723,14 +723,14 @@
 	.journal-component {
 		height: 25px;
 		line-height: 25px;
-		margin-right: 5px;
-		padding-right: 25px;
+		margin-right: 5px;   /*rtl*/
+		padding-right: 25px;   /*rtl*/
 	}
 }
 
 .journal-article-edit-field-wrapper {
 	&.aui-overlaycontextpanel {
-		margin:0 0 0 13px;
+		margin: 0 0 0 13px;   /*rtl*/
 		padding: 0;
 		position: relative;
 	}
@@ -839,12 +839,12 @@
 
 			span {
 				background: #B5BFC4;
-				border-left: 1px solid #BFBFBF;
+				border-left: 1px solid #BFBFBF;   /*rtl*/
 				display: block;
-				float: right;
-				margin-left: 4px;
-				padding-left: 4px;
-				text-align: left;
+				float: right;   /*rtl*/
+				margin-left: 4px;   /*rtl*/
+				padding-left: 4px;   /*rtl*/
+				text-align: left;   /*rtl*/
 				width: 40px;
 			}
 		}

@@ -1,8 +1,8 @@
 .portlet-configuration {
 	.archived-setups {
 		margin-bottom: 1em;
-		margin-left: 0.5em;
-		text-align: left;
+		margin-left: 0.5em;   /*rtl*/
+		text-align: left;   /*rtl*/
 	}
 
 	.edit-permissions {
@@ -15,14 +15,14 @@
 		}
 
 		.assign-permissions {
-			float: right;
+			float: right;   /*rtl*/
 
 			.aui-button-holder {
 				position: relative;
 
 				.finished {
 					position: absolute;
-					left: 0;
+					left: 0;   /*rtl*/
 				}
 			}
 		}

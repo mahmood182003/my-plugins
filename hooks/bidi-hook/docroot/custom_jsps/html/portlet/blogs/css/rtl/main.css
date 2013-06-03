@@ -17,14 +17,14 @@
 	}
 
 	.entry-author {
-		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 50%;
-		border-left: 1px solid #999;
+		background: url(@theme_image_path@/rtl/portlet/edit_guest.png) no-repeat right 50%;   /*rtl*/
+		border-left: 1px solid #999;   /*rtl*/
 		color: #999;
-		float: right;
+		float: right;   /*rtl*/
 		font-weight: bold;
-		margin-left: 10px;
-		padding-right: 25px;
-		padding-left: 10px;
+		margin-left: 10px;   /*rtl*/
+		padding-right: 25px;   /*rtl*/
+		padding-left: 10px;   /*rtl*/
 	}
 
 	.entry-body {
@@ -32,14 +32,14 @@
 	}
 
 	.entry-date {
-		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 50%;
+		background: url(@theme_image_path@/rtl/common/date.png) no-repeat right 50%;   /*rtl*/
 		color: #999;
-		padding-right: 25px;
+		padding-right: 25px;   /*rtl*/
 	}
 
 	.taglib-asset-categories-summary, .taglib-asset-tags-summary {
-		border-right: 1px solid #999;
-		padding-right: 10px;
+		border-right: 1px solid #999;   /*rtl*/
+		padding-right: 10px;   /*rtl*/
 	}
 
 	.entry-title {
@@ -56,9 +56,9 @@
 		padding: 5px;
 
 		h3 {
-			background: url(@theme_image_path@/rtl/common/page.png) no-repeat right 50%;
+			background: url(@theme_image_path@/rtl/common/page.png) no-repeat right 50%;   /*rtl*/
 			margin-top: 0;
-			padding-right: 20px;
+			padding-right: 20px;   /*rtl*/
 		}
 	}
 
@@ -75,19 +75,19 @@
 
 		.previous {
 			background-image: url(@theme_image_path@/rtl/arrows/paging_previous.png);
-			float: right;
-			padding-right: 15px;
+			float: right;   /*rtl*/
+			padding-right: 15px;   /*rtl*/
 		}
 
 		span.previous {
-			background-position: right 100%   /*rtl*/
+			background-position: 0 100%;
 		}
 
 		.next {
 			background-image: url(@theme_image_path@/rtl/arrows/paging_next.png);
 			background-position: 100% 0;
-			float: left;
-			padding-left: 15px;
+			float: left;   /*rtl*/
+			padding-left: 15px;   /*rtl*/
 		}
 
 		span.next {
@@ -107,8 +107,8 @@
 
 	.stats {
 		color: #999;
-		float: right;
-		padding-left: 10px;
+		float: right;   /*rtl*/
+		padding-left: 10px;   /*rtl*/
 	}
 
 	.subscribe {
@@ -116,10 +116,10 @@
 	}
 
 	.taglib-flags {
-		border-right: 1px solid #999;
+		border-right: 1px solid #999;   /*rtl*/
 		color: #999;
-		padding-right: 10px;
-		padding-left: 10px;
+		padding-right: 10px;   /*rtl*/
+		padding-left: 10px;   /*rtl*/
 	}
 
 	.taglib-ratings.stars {
@@ -132,5 +132,5 @@
 }
 
 .social-boomarks-options {
-	margin-right: 2em;
+	margin-right: 2em;   /*rtl*/
 }
