@@ -423,7 +423,7 @@
 		}
 
 		.aui-icon-display-list {
-			background-position: 0 100%;
+			background-position: right 100%;   /*rtl*/
 		}
 
 		.aui-icon-display-icon {
@@ -704,7 +704,7 @@
 			}
 
 			.lfr-asset-icon {
-				background-position: 0 2px;
+				background-position: right 2px;   /*rtl*/
 				background-repeat: no-repeat;
 				border-left-width: 0;   /*rtl*/
 				float: none;

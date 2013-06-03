@@ -37,11 +37,11 @@
 }
 
 .lfr-search-combobox .aui-field-input-text {
-	@include border-radius(1px 4px 4px 1px);
+	@include border-radius(1px 4px 4px 1px);   /*rtl*/
 }
 
 .lfr-search-combobox .aui-button-input {
-	@include border-radius(4px 1px 1px 4px);
+	@include border-radius(4px 1px 1px 4px);   /*rtl*/
 }
 
 body > .lfr-menu-list, body > .lfr-menu-list ul, .lfr-actions, .aui-dialog-content, .aui-dialog .yui3-widget-hd, .modify-pages .delete-tab, input[type="submit"], input[type="button"], input[type="reset"], button, .tags-search-combobox .aui-field-input-text, .staging-icon-menu-container .staging-icon-menu.lfr-actions .lfr-trigger strong a, .active-area-proxy, .portlet-document-library .document-display-style .document-thumbnail img, .portlet-document-library-display .document-display-style .document-thumbnail img, .aui-paginator-link, .lfr-header-row .aui-toolbar-only, .lfr-translation-manager, .lfr-translation-manager-translation, .select-documents, .select-files, .taglib-ratings.stars:hover, .taglib-ratings.stars:hover .liferay-rating-vote, .rule-group-instance-container .rule-group-instance, .portlet-search .search-facet .facet-value, .lfr-api-results {
@@ -57,18 +57,18 @@ body > .lfr-menu-list, body > .lfr-menu-list ul, .lfr-actions, .aui-dialog-conte
 }
 
 .aui-menu-content {
-	@include border-bottom-right-radius(4px);
 	@include border-bottom-left-radius(4px);
+	@include border-bottom-right-radius(4px);
 }
 
 .aui-underlay-content {
-	@include border-bottom-right-radius(8px);
 	@include border-bottom-left-radius(8px);
+	@include border-bottom-right-radius(8px);
 }
 
 .lfr-hudcrumbs ul {
-	@include border-top-right-radius(0);
 	@include border-top-left-radius(0);
+	@include border-top-right-radius(0);
 }
 
 .lfr-message .lfr-message-control {

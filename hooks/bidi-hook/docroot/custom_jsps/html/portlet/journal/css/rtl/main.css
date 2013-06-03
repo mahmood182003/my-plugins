@@ -631,22 +631,22 @@
 
 .journal-component-text {
 	background-image: url(@theme_image_path@/rtl/journal/text_field.png);
-	background-position: 3px 9px;
+	background-position: 98% 9px;   /*rtl*/
 }
 
 .journal-component-textbox {
 	background-image: url(@theme_image_path@/rtl/journal/textbox.png);
-	background-position: 3px 6px;
+	background-position: 98% 6px;   /*rtl*/
 }
 
 .journal-component-textarea {
 	background-image: url(@theme_image_path@/rtl/journal/textarea.png);
-	background-position: 3px 4px;
+	background-position: 98% 4px;   /*rtl*/
 }
 
 .journal-component-image {
 	background-image: url(@theme_image_path@/rtl/journal/image_uploader.png);
-	background-position: 3px 7px;
+	background-position: 98% 7px;   /*rtl*/
 }
 
 .journal-component-documentlibrary {
@@ -655,37 +655,37 @@
 
 .journal-component-boolean {
 	background-image: url(@theme_image_path@/rtl/journal/checkbox.png);
-	background-position: 3px 7px;
+	background-position: 98% 7px;   /*rtl*/
 }
 
 .journal-component-options {
 	background-image: url(@theme_image_path@/rtl/journal/options.png);
-	background-position: 3px 5px;
+	background-position: 98% 5px;   /*rtl*/
 }
 
 .journal-component-list {
 	background-image: url(@theme_image_path@/rtl/journal/selectbox.png);
-	background-position: 3px 9px;
+	background-position: 98% 9px;   /*rtl*/
 }
 
 .journal-component-multilist {
 	background-image: url(@theme_image_path@/rtl/journal/multiselection_list.png);
-	background-position: 3px 4px;
+	background-position: 98% 4px;   /*rtl*/
 }
 
 .journal-component-linktolayout {
 	background-image: url(@theme_image_path@/rtl/journal/link_to_page.png);
-	background-position: 3px 9px;
+	background-position: 98% 9px;   /*rtl*/
 }
 
 .journal-component-formgroup {
 	background-image: url(@theme_image_path@/rtl/journal/form_group.png);
-	background-position: 3px 5px;
+	background-position: 98% 5px;   /*rtl*/
 }
 
 .journal-component-selectionbreak {
 	background-image: url(@theme_image_path@/rtl/journal/selection_break.png);
-	background-position: 3px 12px;
+	background-position: 98% 12px;   /*rtl*/
 }
 
 .component-group {

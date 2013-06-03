@@ -20,8 +20,8 @@ body.portlet {
 
 	img {
 		vertical-align: middle;
-		float: left;
-		margin-right: 4px;
+		float: left;   /*rtl*/
+		margin-right: 4px;   /*rtl*/
 	}
 }
 
@@ -39,14 +39,14 @@ body.portlet {
 	margin: 0;
 	padding: 2px;
 	position: absolute;
-	right: 3px;
-	text-align: right;
+	right: 3px;   /*rtl*/
+	text-align: right;   /*rtl*/
 	top: 3px;
-	direction:ltr;
+	direction: ltr;
 
 	.nobr {
 		display: block;
-		float: right;
+		float: right;   /*rtl*/
 		padding: 1px;
 	}
 }
@@ -60,15 +60,15 @@ body.portlet {
 }
 
 .portlet-icon-back {
-	background: url(../../images/arrows/01_right.png) no-repeat right 50%;
+	background: url(../../images/rtl/arrows/01_left.png) no-repeat right 50%;   /*rtl*/
 	font-weight: bold;
-	padding: 5px 18px 5px 5px;
+	padding: 5px 18px 5px 5px;   /*rtl*/
 }
 
 .portlet-nested-portlets .portlet-boundary {
 	position: relative !important;
 	top: 0 !important;
-	right: 0 !important;
+	right: 0 !important;   /*rtl*/
 }
 
 /* ---------- Borderless portlet ---------- */
@@ -85,17 +85,17 @@ body.portlet {
 	opacity: 0.3;
 	padding: 2px 5px 1px;
 	position: absolute;
-	left: 0;
+	left: 0;   /*rtl*/
 	text-shadow: -1px -1px #000;
 	top: 0;
 	z-index: 200;
 
 	a {
-		background: url() no-repeat right 50%;
+		background: url() no-repeat right 50%;   /*rtl*/
 		color: #3AF;
 		display: inline-block;
 		height: 16px;
-		margin-right: 5px;
+		margin-right: 5px;   /*rtl*/
 		text-indent: -9999px;
 		vertical-align: top;
 		width: 16px;
@@ -103,8 +103,8 @@ body.portlet {
 
 	.portlet-actions {
 		display: none;
-		float: right;
-		margin-left: 20px;
+		float: right;   /*rtl*/
+		margin-left: 20px;   /*rtl*/
 	}
 
 	.portlet-title-default, .portlet-actions {
@@ -120,6 +120,10 @@ body.portlet {
 		height: auto;
 		text-indent: 0;
 		width: auto;
+	}
+
+	.portlet-close {
+		float: right;
 	}
 
 	.portlet-close a {
@@ -141,7 +145,7 @@ body.portlet {
 
 .portlet-title-default {
 	display: inline-block;
-	float: left;
+	float: left;   /*rtl*/
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -152,9 +156,9 @@ body.portlet {
 	}
 
 	.portlet-title-default {
-		background: url(../../images/rtl/portlet/draggable_borderless.png) no-repeat right 50%;
+		background: url(../../images/rtl/portlet/draggable_borderless.png) no-repeat right 50%;   /*rtl*/
 		cursor: move;
-		padding-right: 20px;
+		padding-right: 20px;   /*rtl*/
 	}
 }
 
@@ -189,14 +193,14 @@ body.portlet {
 /* ---------- Messages ---------- */
 
 .portlet-msg {
-	background: #EEE none no-repeat 6px 50%;
+	background: #EEE none no-repeat 99% 50%;   /*rtl*/
 	border: 1px solid #555;
 	color: #34404F;
 	display: block;
 	font-weight: bold;
 	margin: 2px auto 14px;
-	padding: 6px 6px 6px 30px;
-	text-align: right;
+	padding: 6px 30px 6px 6px;   /*rtl*/
+	text-align: right;   /*rtl*/
 }
 
 /* ---------- Status of the current operation ---------- */
@@ -238,7 +242,7 @@ body.portlet {
 	@extend .portlet-msg;
 	background-color: #FFC;
 	background-image: url(../../images/rtl/messages/alert.png);
-	background-position: 6px 20%;
+	background-position: 96% 20%;   /*rtl*/
 	border-color: #FC0;
 }
 
@@ -255,8 +259,8 @@ body.portlet {
 /* ---------- Message labels ---------- */
 
 .portlet-msg-alert-label, .portlet-msg-error-label, .portlet-msg-info-label, .portlet-msg-progress-label, .portlet-msg-success-label {
-	background: none no-repeat right 50%;
-	padding: 3px 3px 3px 20px;
+	background: none no-repeat right 50%;   /*rtl*/
+	padding: 3px 20px 3px 3px;   /*rtl*/
 	font-weight: bold;
 }
 
@@ -291,8 +295,8 @@ body.portlet {
 /* ---------- Liferay Messages ---------- */
 
 .lfr-message-content, .lfr-message-info, .lfr-message-help, .lfr-message-error, .lfr-message-alert, .lfr-message-success {
-	border-right-width: 0;
-	border-left-width: 0;
+	border-right-width: 0;   /*rtl*/
+	border-left-width: 0;   /*rtl*/
 }
 
 .lfr-message {
@@ -305,7 +309,7 @@ body.portlet {
 
 	.lfr-message-controls {
 		display: none;
-		right: 3px;
+		right: 3px;   /*rtl*/
 		margin: -8px 8px 0 3px;
 		position: absolute;
 		top: 50%;
@@ -314,7 +318,7 @@ body.portlet {
 
 	.lfr-message-close {
 		background-image: url(../../images/rtl/portlet/close_borderless.png);
-		background-position: 0 0;
+		background-position: right 0;   /*rtl*/
 		background-repeat: no-repeat;
 	}
 
@@ -322,7 +326,7 @@ body.portlet {
 		color: #FFF;
 		display: none;
 		font-size: 0.8em;
-		margin-right: 10px;
+		margin-right: 10px;   /*rtl*/
 		padding: 1px 10px;
 		text-shadow: 1px 1px 0 #000;
 		vertical-align: top;
@@ -528,9 +532,9 @@ body.portlet {
 .restricted, .alt.restricted {
 	td.col-1 {
 		background-image: url(../../images/rtl/messages/error.png);
-		background-position: 98% 50%;
+		background-position: 97% 50%;   /*rtl*/
 		background-repeat: no-repeat;
-		padding-right: 28px;
+		padding-right: 28px;   /*rtl*/
 	}
 }
 
@@ -539,9 +543,9 @@ body.portlet {
 .results-row, .results-row.hover {
 	&.lfr-role .col-1 {
 		background-image: url();
-		background-position: 98% 50%;
+		background-position: 97% 50%;   /*rtl*/
 		background-repeat: no-repeat;
-		padding-right: 30px;
+		padding-right: 30px;   /*rtl*/
 	}
 
 	&.lfr-role-guest .col-1 {
@@ -579,7 +583,7 @@ body.portlet {
 
 .lfr-actions {
 	&.lfr-extended, &.lfr-extended ul {
-		background: #FFF url(../../images/rtl/forms/button.png) repeat-x right 100%;
+		background: #FFF url(../../images/rtl/forms/button.png) repeat-x right 100%;   /*rtl*/
 		border: 1px solid;
 		border-color: #DEDEDE #BFBFBF #BFBFBF #DEDEDE;
 	}
@@ -599,7 +603,7 @@ body.portlet {
 			padding: 2px;
 
 			a {
-				padding: 5px 10px 5px 25px;
+				padding: 5px 25px 5px 10px;   /*rtl*/
 
 				&:hover {
 					background-color: #828F95;
@@ -608,7 +612,7 @@ body.portlet {
 			}
 
 			img {
-				right: 3px;
+				right: 3px;   /*rtl*/
 				position: absolute;
 			}
 
@@ -632,7 +636,7 @@ body.portlet {
 
 				a {
 					background-image: url(../../images/rtl/portlet/options.png);
-					background-position: 0 0;
+					background-position: right 0;   /*rtl*/
 					display: block;
 					font-size: 0;
 					height: 16px;
@@ -686,7 +690,7 @@ body.portlet {
 				background-color: #F0F5F7;
 				border: 1px solid #FFF;
 				border-bottom: none;
-				border-right: none;
+				border-right: none;   /*rtl*/
 				display: block;
 				height: 15px;
 				padding: 5px 0;
@@ -737,18 +741,18 @@ body.portlet {
 	}
 
 	.taglib-calendar tr td.first a {
-		border-left: none;
+		border-left: none;   /*rtl*/
 	}
 }
 
 .ie6, .ie7 {
 	.portlet-borderless-bar .portlet-actions {
-		margin-left: 0;
-		margin-right: 20px;
+		margin-left: 0;   /*rtl*/
+		margin-right: 20px;   /*rtl*/
 	}
 
 	.portlet-title-default {
-		float: right;
+		float: right;   /*rtl*/
 	}
 
 	.breadcrumbs-vertical, .breadcrumbs-horizontal li {

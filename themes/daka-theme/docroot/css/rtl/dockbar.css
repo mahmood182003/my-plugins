@@ -21,7 +21,7 @@
 }
 
 .dockbar {
-	background: #97A1AE url(../../images/rtl/dockbar/dockbar_bg.png) repeat-x right 0;
+	background: #97A1AE url(../../images/rtl/dockbar/dockbar_bg.png) repeat-x right 0;   /*rtl*/
 	border-bottom: 1px solid #636364;
 	font-size: 13px;
 	padding: 1px 5px;
@@ -43,7 +43,7 @@
 
 .ie6 .dockbar, .ie6 .lfr-dockbar-pinned .dockbar {
 	height: 10px;
-	right: 0;
+	right: 0;   /*rtl*/
 	position: relative;
 	top: 0;
 }
@@ -55,7 +55,7 @@
 }
 
 .dockbar .menu-button-active {
-	background: #5C94DA url(../../images/rtl/dockbar/button_active_bg.png) repeat-x right 0;
+	background: #5C94DA url(../../images/rtl/dockbar/button_active_bg.png) repeat-x right 0;   /*rtl*/
 }
 
 .dockbar .menu-button-active a {
@@ -65,7 +65,7 @@
 
 .dockbar .user-avatar .sign-out {
 	font-size: 0.8em;
-	padding-right: 0;
+	padding-right: 0;   /*rtl*/
 }
 
 .dockbar ul {
@@ -74,7 +74,7 @@
 }
 
 .dockbar li li {
-	margin-right: 0;
+	margin-right: 0;   /*rtl*/
 }
 
 html > .lfr-dockbar-pinned {
@@ -82,15 +82,15 @@ html > .lfr-dockbar-pinned {
 }
 
 .lfr-dockbar-pinned .dockbar {
-	right: 0;
+	right: 0;   /*rtl*/
 	position: fixed;
-	left: 0;
+	left: 0;   /*rtl*/
 	top: 0;
 }
 
 .dockbar .pin-dockbar {
-	margin-right: 0;
-	float:left;
+	margin-right: 10px;   /*rtl*/
+	float:left;   /*rtl*/
 }
 
 .ie6 .dockbar .pin-dockbar {
@@ -98,7 +98,7 @@ html > .lfr-dockbar-pinned {
 }
 
 .pin-dockbar img {
-	background: url(../../images/rtl/dockbar/pin.png) no-repeat right 0;
+	background: url(../../images/rtl/dockbar/pin.png) no-repeat right 0;   /*rtl*/
 	height: 27px;
 	vertical-align: middle;
 	width: 27px;
@@ -118,8 +118,8 @@ html > .lfr-dockbar-pinned {
 }
 
 .dockbar .impersonating-user {
-	background: url(../../images/rtl/messages/alert.png) no-repeat right 50%;
-	padding-right: 20px;
+	background: url(../../images/rtl/messages/alert.png) no-repeat right 50%;   /*rtl*/
+	padding-right: 20px;   /*rtl*/
 }
 
 .dockbar .impersonating-user .user-links a {
@@ -136,7 +136,7 @@ html > .lfr-dockbar-pinned {
 }
 
 .layout-revision-container {
-	margin: 1em 0 0 1em;
+	margin: 1em 1em 0 0;   /*rtl*/
 	padding: 0;
 
 	.aproximate-date {
@@ -155,7 +155,7 @@ html > .lfr-dockbar-pinned {
 	}
 
 	.current-version-pointer img {
-		right: -25px;
+		right: -25px;   /*rtl*/
 		position: relative;
 	}
 
@@ -173,12 +173,12 @@ html > .lfr-dockbar-pinned {
 	.real-date {
 		color: #999;
     	display: block;
-    	text-align: left;
+    	text-align: left;   /*rtl*/
 	}
 
 	.taglib-workflow-status .workflow-status {
 		background: none;
-		padding-right: 0;
+		padding-right: 0;   /*rtl*/
 
 		.workflow-status-ready-for-publication {
 			color: #41801d;
@@ -192,8 +192,8 @@ html > .lfr-dockbar-pinned {
 }
 
 .staging-details {
-	background: url() no-repeat right 0;
-	padding-right: 65px;
+	background: url() no-repeat right 0;   /*rtl*/
+	padding-right: 65px;   /*rtl*/
 	min-height: 50px;
 }
 
@@ -227,16 +227,16 @@ html > .lfr-dockbar-pinned {
 	float: right;
 }
 
-.dockbar .user-toolbar .my-sites{
+.dockbar .user-toolbar .my-sites{   /*rtl*/
 	float: left;
 }
 
-.dockbar .user-toolbar .user-avatar {
+.dockbar .user-toolbar .user-avatar {   /*rtl*/
 	float: right;
 	margin-right: 10px;
 }
 
-.dockbar .user-toolbar .aui-toolbar-separator{
+.dockbar .user-toolbar .aui-toolbar-separator{   /*rtl*/
 	float: left;
 	height:26px;
 }
@@ -255,15 +255,15 @@ html > .lfr-dockbar-pinned {
 }
 
 .add-application {
-	right: 10px !important;
+	right: 10px !important;   /*rtl*/
 }
 
 .lfr-has-sidebar #main-content {
-	padding-right: 220px;
+	padding-right: 220px;   /*rtl*/
 }
 
 .manage-layouts {
-	right: 60px !important;
+	right: 60px !important;   /*rtl*/
 }
 
 .my-sites-menu {
@@ -285,13 +285,13 @@ html > .lfr-dockbar-pinned {
 .my-sites-menu a {
 	display: block;
 	overflow: hidden;
-	text-align: left;
+	text-align: left;   /*rtl*/
 	white-space: nowrap;
 }
 
 .my-sites-menu .control-panel a {
-	background: url(../../images/rtl/dock/control_panel.png) no-repeat 98% 50%;
-	padding-right: 25px;
+	background: url(../../images/rtl/dock/control_panel.png) no-repeat 97% 50%;   /*rtl*/
+	padding-right: 25px;   /*rtl*/
 }
 
 .my-sites-menu .current-site {
@@ -300,9 +300,9 @@ html > .lfr-dockbar-pinned {
 }
 
 .my-sites-menu .current-site a {
-	background: #3068BA url(../../images/rtl/arrows/01_right.png) no-repeat scroll 98% 30%;
+	background: #3068BA url(../../images/rtl/arrows/01_left.png) no-repeat scroll 98% 30%;   /*rtl*/
 	color: #FFF;
-	padding-right: 20px;
+	padding-right: 20px;   /*rtl*/
 	text-shadow: 1px 1px #333;
 }
 
@@ -317,15 +317,15 @@ html > .lfr-dockbar-pinned {
 
 .my-sites-menu .site-name {
 	cursor: pointer;
-	float: right;
+	float: right;   /*rtl*/
 }
 
 .my-sites-menu .site-type {
 	color: #777;
-	float: left;
+	float: left;   /*rtl*/
 	font-size: 0.8em;
 	font-weight: normal;
-	margin-right: 10px;
+	margin-right: 10px;   /*rtl*/
 }
 
 .ie7 .my-sites-menu .site-type {
@@ -338,7 +338,7 @@ html > .lfr-dockbar-pinned {
 
 .ie7 .my-sites-menu a {
 	overflow: visible;
-	text-align: right;
+	text-align: right;   /*rtl*/
 }
 
 .ie7 .my-sites-menu .site-name {
@@ -358,8 +358,8 @@ html > .lfr-dockbar-pinned {
 }
 
 .dockbar .toggle-controls a {
-	background: url(../../images/rtl/dockbar/checked.png) no-repeat 98% 50%;
-	padding-right: 20px;
+	background: url(../../images/rtl/dockbar/checked.png) no-repeat right 50%;   /*rtl*/
+	padding-right: 20px;   /*rtl*/
 }
 
 .controls-hidden .toggle-controls a {
@@ -371,15 +371,15 @@ html > .lfr-dockbar-pinned {
 }
 
 .dockbar .menu-button {
-	background: url(../../images/rtl/arrows/05_down.png) no-repeat left 50%;
+	background: url(../../images/rtl/arrows/05_down.png) no-repeat 7px 50%;   /*rtl*/
 	display: inline-block;
-	padding: 5px 5px 5px 15px;
+	padding: 5px 5px 5px 20px;   /*rtl*/
 	text-decoration: none;
 }
 
 .dockbar .menu-button span {
-	background: url() no-repeat 98% 50%;
-	padding-right: 20px;
+	background: url() no-repeat right 50%;   /*rtl*/
+	padding-right: 20px;   /*rtl*/
 }
 
 .dockbar .add-content .menu-button span {
@@ -395,8 +395,8 @@ html > .lfr-dockbar-pinned {
 }
 
 .dockbar-messages-container {
-	right: 50%;
-	margin-right: -150px;
+	right: 50%;   /*rtl*/
+	margin-right: -150px;   /*rtl*/
 }
 
 .dockbar-messages {
@@ -418,13 +418,13 @@ html > .lfr-dockbar-pinned {
 }
 
 .add-content-menu .add-page a {
-	background: url(../../images/rtl/navigation/add_page.png) no-repeat 98% 50%;
-	padding-right: 25px;
+	background: url(../../images/rtl/navigation/add_page.png) no-repeat 97% 50%;   /*rtl*/
+	padding-right: 25px;   /*rtl*/
 }
 
 .add-content-menu .add-application a {
-	background: url(../../images/rtl/common/portlet.png) no-repeat 98% 50%;
-	padding-right: 25px;
+	background: url(../../images/rtl/common/portlet.png) no-repeat 97% 50%;   /*rtl*/
+	padding-right: 25px;   /*rtl*/
 }
 
 .add-content-menu a.lfr-portlet-used {
@@ -433,8 +433,8 @@ html > .lfr-dockbar-pinned {
 }
 
 .manage-content-menu li a, .manage-content-menu li .disabled {
-	background: url() no-repeat 98% 50%;
-	padding-right: 25px;
+	background: url() no-repeat 97% 50%;   /*rtl*/
+	padding-right: 25px;   /*rtl*/
 }
 
 .manage-content-menu .manage-page a {
@@ -486,7 +486,7 @@ html > .lfr-dockbar-pinned {
 }
 
 .page-customization-bar .page-customization-actions {
-	padding-right: 5em;
+	padding-right: 5em;   /*rtl*/
 }
 
 .page-customization-bar .page-customization-actions a {
@@ -497,5 +497,5 @@ html > .lfr-dockbar-pinned {
 
 .page-customization-bar .reset-prototype {
 	display: inline;
-	padding-right: 1em;
+	padding-right: 1em;   /*rtl*/
 }

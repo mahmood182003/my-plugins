@@ -80,18 +80,18 @@
 		}
 
 		span.previous {
-			background-position: 0 100%;
+			background-position: right 100%;   /*rtl*/
 		}
 
 		.next {
 			background-image: url(@theme_image_path@/rtl/arrows/paging_next.png);
-			background-position: 100% 0;
+			background-position: left 0;   /*rtl*/
 			float: left;   /*rtl*/
 			padding-left: 15px;   /*rtl*/
 		}
 
 		span.next {
-			background-position: 100% 100%;
+			background-position: left 100%;   /*rtl*/
 		}
 	}
 

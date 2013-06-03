@@ -130,7 +130,7 @@
 
 	.entity-addresses {
 		.primary {
-			background-position: 3px 5px;
+			background-position: 98% 5px;   /*rtl*/
 		}
 
 		.mailing-name {

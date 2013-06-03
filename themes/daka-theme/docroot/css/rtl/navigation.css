@@ -13,7 +13,7 @@
 		margin-top: -7px;
 		padding: 3px;
 		position: absolute;
-		left: 1px;
+		left: 1px;   /*rtl*/
 		text-indent: -9999em;
 		top: 50%;
 		width: 8px;
@@ -24,7 +24,7 @@
 
 .nav-menu {
 	ul {
-		padding-right: 10px;
+		padding-right: 10px;   /*rtl*/
 	}
 
 	li {
@@ -50,19 +50,19 @@
 	input {
 		border-width: 0;
 		display: inline;
-		float: right;
+		float: right;   /*rtl*/
 	}
 }
 
 .aui-form-triggers {
-	float: right;
+	float: right;   /*rtl*/
 }
 
 .aui-form-trigger {
-	background: #C4C4C4 url(../../images/rtl/application/button_bg.png) repeat-x right 0;
-	border-right: 1px solid #BBB;
+	background: #C4C4C4 url(../../images/rtl/application/button_bg.png) repeat-x right 0;   /*rtl*/
+	border-right: 1px solid #BBB;   /*rtl*/
 	display: inline-block;
-	float: right;
+	float: right;   /*rtl*/
 
 	img {
 		background: url() no-repeat 50% 40%;

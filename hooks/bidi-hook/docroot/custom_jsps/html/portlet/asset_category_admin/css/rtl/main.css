@@ -53,7 +53,7 @@
 	.categories-admin-search .aui-field-input {
 		background-image: url(@theme_image_path@/rtl/common/search.png);
 		background-repeat: no-repeat;
-		background-position: 5px 50%;
+		background-position: 97% 50%;   /*rtl*/
 		padding-right: 25px;   /*rtl*/
 		width: 210px;
 	}
@@ -264,7 +264,7 @@
 			}
 
 			&.aui-tree-collapsed .aui-tree-hitarea {
-				background-position: 0 50%;
+				background-position: right 50%;   /*rtl*/
 			}
 
 			.aui-tree-node-checkbox-container, .aui-tree-label {

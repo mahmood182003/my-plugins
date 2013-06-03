@@ -19,11 +19,11 @@
 }
 
 .portlet-column-content-only, .ltr .portlet-column-content-first, .rtl .portlet-column-content-last {
-	padding-right: 0;
+	padding-right: 0;   /*rtl*/
 }
 
 .portlet-column-content-only, .ltr .portlet-column-content-last, .rtl .portlet-column-content-first {
-	padding-left: 0;
+	padding-left: 0;   /*rtl*/
 }
 
 /* ---------- Column widths ---------- */
@@ -44,13 +44,13 @@
 	}
 
 	div.portlet-column {
-		float: right;
+		float: right;   /*rtl*/
 		overflow: hidden;
 		width: 100%;
 	}
 
 	div.aui-column-last {
-		margin-left: -1px;
+		margin-left: -1px;   /*rtl*/
 	}
 
 	.portlet-column-content {
