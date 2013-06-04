@@ -1,3 +1,11 @@
+#_156_regularCss {
+	direction: ltr;
+}
+
+#_88_regularCss {
+	direction: ltr;
+}
+
 @mixin input-field-default {
 	background-image: url(../../images/rtl/forms/input_shadow.png);
 	background-repeat: no-repeat;
